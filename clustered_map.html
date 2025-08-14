@@ -1,0 +1,3737 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_13bf075d9e6409e1c0aee25fa5e6cdec {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_13bf075d9e6409e1c0aee25fa5e6cdec" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_13bf075d9e6409e1c0aee25fa5e6cdec = L.map(
+                "map_13bf075d9e6409e1c0aee25fa5e6cdec",
+                {
+                    center: [43.16182796480927, -77.60991736013243],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ff2e056ecaef6df906235205ee917ed7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ff2e056ecaef6df906235205ee917ed7.addTo(map_13bf075d9e6409e1c0aee25fa5e6cdec);
+        
+    
+            var marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_f2d5b1833185ec9b1f974fac395b22d0 = L.marker(
+                [43.14956548732465, -77.54370436],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_f011367aa93f6094cc7c5c7d0a7660bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_987e70340eb8a916e4598d57fb8cb2cd = $(`<div id="html_987e70340eb8a916e4598d57fb8cb2cd" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 1024 BLOSSOM ROAD<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2022/10/03 17:20:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_f011367aa93f6094cc7c5c7d0a7660bd.setContent(html_987e70340eb8a916e4598d57fb8cb2cd);
+            
+        
+
+        marker_f2d5b1833185ec9b1f974fac395b22d0.bindPopup(popup_f011367aa93f6094cc7c5c7d0a7660bd)
+        ;
+
+        
+    
+    
+            var marker_8c32c760939a57669d75b19f3df93251 = L.marker(
+                [43.20413909757722, -77.65666327],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_0f4a93b6e6c395ecdf35f48993449d24 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8643e6650bb8544b49afb59afdc5268f = $(`<div id="html_8643e6650bb8544b49afb59afdc5268f" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 1130 W RIDGE ROAD<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2021/12/20 18:10:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_0f4a93b6e6c395ecdf35f48993449d24.setContent(html_8643e6650bb8544b49afb59afdc5268f);
+            
+        
+
+        marker_8c32c760939a57669d75b19f3df93251.bindPopup(popup_0f4a93b6e6c395ecdf35f48993449d24)
+        ;
+
+        
+    
+    
+            var marker_78be9c8d438d9be0259a498cff82aece = L.marker(
+                [43.13686499674451, -77.63934657],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_7da6d1920a5466c7f227147f2cda58e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33e665ff087cb360d3d17ab511f1f63f = $(`<div id="html_33e665ff087cb360d3d17ab511f1f63f" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 114 ELMDORF AVE<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2023/08/05 18:00:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_7da6d1920a5466c7f227147f2cda58e1.setContent(html_33e665ff087cb360d3d17ab511f1f63f);
+            
+        
+
+        marker_78be9c8d438d9be0259a498cff82aece.bindPopup(popup_7da6d1920a5466c7f227147f2cda58e1)
+        ;
+
+        
+    
+    
+            var marker_b142ddd924d1e3e55348026ccebbefbd = L.marker(
+                [43.17125485239024, -77.56152067],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_55408ca65f3e877919dc2c639f06e84d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2562db7bbf548dc425f83e07aaaa3581 = $(`<div id="html_2562db7bbf548dc425f83e07aaaa3581" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 1173 BAY ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/08/02 22:42:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_55408ca65f3e877919dc2c639f06e84d.setContent(html_2562db7bbf548dc425f83e07aaaa3581);
+            
+        
+
+        marker_b142ddd924d1e3e55348026ccebbefbd.bindPopup(popup_55408ca65f3e877919dc2c639f06e84d)
+        ;
+
+        
+    
+    
+            var marker_54337b9df5663b0f433371e590f71c5f = L.marker(
+                [43.13478097850996, -77.62759079],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_21ed7a90f8198b0d6ede5eac5450af0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c89f765c53ac7630610ee2686b3523e = $(`<div id="html_1c89f765c53ac7630610ee2686b3523e" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 127 ELBA ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/07/24 14:40:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_21ed7a90f8198b0d6ede5eac5450af0d.setContent(html_1c89f765c53ac7630610ee2686b3523e);
+            
+        
+
+        marker_54337b9df5663b0f433371e590f71c5f.bindPopup(popup_21ed7a90f8198b0d6ede5eac5450af0d)
+        ;
+
+        
+    
+    
+            var marker_3a6b68a00364527647d1910c10f38562 = L.marker(
+                [43.16473870291501, -77.65875012],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_1bbe47cacb09bd8b5830b1e035cb1987 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a682a25bf0ef3ec320aca30b63cc60ab = $(`<div id="html_a682a25bf0ef3ec320aca30b63cc60ab" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 1274 LYELL AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2024/09/12 22:20:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_1bbe47cacb09bd8b5830b1e035cb1987.setContent(html_a682a25bf0ef3ec320aca30b63cc60ab);
+            
+        
+
+        marker_3a6b68a00364527647d1910c10f38562.bindPopup(popup_1bbe47cacb09bd8b5830b1e035cb1987)
+        ;
+
+        
+    
+    
+            var marker_76a2b428ee0db0fd872954c5c964be74 = L.marker(
+                [43.13776353156444, -77.63994782],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_d14820cdaf3f5d6b3d0be690659ad053 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39ee7a6ad681dbb96389c22cdef7da2e = $(`<div id="html_39ee7a6ad681dbb96389c22cdef7da2e" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 128 ROSLYN ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2024/02/18 04:08:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_d14820cdaf3f5d6b3d0be690659ad053.setContent(html_39ee7a6ad681dbb96389c22cdef7da2e);
+            
+        
+
+        marker_76a2b428ee0db0fd872954c5c964be74.bindPopup(popup_d14820cdaf3f5d6b3d0be690659ad053)
+        ;
+
+        
+    
+    
+            var marker_dc04fc2a483281a406eb3310d13796af = L.marker(
+                [43.12944529510526, -77.61172988],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_25a8ed691ea1c9c7dd7139f53053f521 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a8bb8dcba60161da7f51b6e784056b8 = $(`<div id="html_1a8bb8dcba60161da7f51b6e784056b8" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 1327 SOUTH AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2022/12/19 01:36:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_25a8ed691ea1c9c7dd7139f53053f521.setContent(html_1a8bb8dcba60161da7f51b6e784056b8);
+            
+        
+
+        marker_dc04fc2a483281a406eb3310d13796af.bindPopup(popup_25a8ed691ea1c9c7dd7139f53053f521)
+        ;
+
+        
+    
+    
+            var marker_161b761301e78d8d482657bcb6fe0aa3 = L.marker(
+                [43.157540407096256, -77.63103134],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_06b7a4a480bd61b7c78c42666a84a4b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b1a664c9a9b6ca8460f7f3969bbc253 = $(`<div id="html_7b1a664c9a9b6ca8460f7f3969bbc253" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 136 CAMPBELL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/08/10 01:38:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_06b7a4a480bd61b7c78c42666a84a4b9.setContent(html_7b1a664c9a9b6ca8460f7f3969bbc253);
+            
+        
+
+        marker_161b761301e78d8d482657bcb6fe0aa3.bindPopup(popup_06b7a4a480bd61b7c78c42666a84a4b9)
+        ;
+
+        
+    
+    
+            var marker_6da334b15336d5b4985ae40e2e38ec85 = L.marker(
+                [43.16122869626641, -77.57499307],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_717b10ccbc9a3d7965f6205893de7905 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4600c8d16d26544f526731a1070aebb3 = $(`<div id="html_4600c8d16d26544f526731a1070aebb3" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 1372 E MAIN ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/01/20 15:53:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_717b10ccbc9a3d7965f6205893de7905.setContent(html_4600c8d16d26544f526731a1070aebb3);
+            
+        
+
+        marker_6da334b15336d5b4985ae40e2e38ec85.bindPopup(popup_717b10ccbc9a3d7965f6205893de7905)
+        ;
+
+        
+    
+    
+            var marker_ca2704cff850b34fd2b3af659ac209a3 = L.marker(
+                [43.16122869626641, -77.57499307],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_4f95c5cbf42703807896bc87c507639e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e2717f50d2447195e125f4e32e648b1 = $(`<div id="html_0e2717f50d2447195e125f4e32e648b1" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 1372 E MAIN ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/05/28 23:10:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_4f95c5cbf42703807896bc87c507639e.setContent(html_0e2717f50d2447195e125f4e32e648b1);
+            
+        
+
+        marker_ca2704cff850b34fd2b3af659ac209a3.bindPopup(popup_4f95c5cbf42703807896bc87c507639e)
+        ;
+
+        
+    
+    
+            var marker_f24e35fa51bfe5b39169430aa839856b = L.marker(
+                [43.16122869626641, -77.57499307],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_97a7fd0523c7d69929715fad309ba594 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1600fb00de7d4fd4e9c29a0ee7a7e3a2 = $(`<div id="html_1600fb00de7d4fd4e9c29a0ee7a7e3a2" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 1372 E MAIN ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2024/09/27 21:16:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_97a7fd0523c7d69929715fad309ba594.setContent(html_1600fb00de7d4fd4e9c29a0ee7a7e3a2);
+            
+        
+
+        marker_f24e35fa51bfe5b39169430aa839856b.bindPopup(popup_97a7fd0523c7d69929715fad309ba594)
+        ;
+
+        
+    
+    
+            var marker_540be9cd52964a6d9c1a7cebd629a8a8 = L.marker(
+                [43.19153761917628, -77.58560571],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_24e3bdd2084527f23d4c495379635554 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87096f10a67f5a662f397b063fd42738 = $(`<div id="html_87096f10a67f5a662f397b063fd42738" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 1425 PORTLAND AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2024/08/08 20:56:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_24e3bdd2084527f23d4c495379635554.setContent(html_87096f10a67f5a662f397b063fd42738);
+            
+        
+
+        marker_540be9cd52964a6d9c1a7cebd629a8a8.bindPopup(popup_24e3bdd2084527f23d4c495379635554)
+        ;
+
+        
+    
+    
+            var marker_f6a390af18f0060cacab6968b57fd711 = L.marker(
+                [43.17522427, -77.58260221],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_41b663413e4536f70fe8847bf5ef8c2c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb054b50011a130b683e278032e2fb14 = $(`<div id="html_eb054b50011a130b683e278032e2fb14" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 1445 CLIFFORD AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2022/12/16 04:09:00+00<br>     <b>Crime Type:</b> Aggravated Assault     </div>`)[0];
+                popup_41b663413e4536f70fe8847bf5ef8c2c.setContent(html_eb054b50011a130b683e278032e2fb14);
+            
+        
+
+        marker_f6a390af18f0060cacab6968b57fd711.bindPopup(popup_41b663413e4536f70fe8847bf5ef8c2c)
+        ;
+
+        
+    
+    
+            var marker_ba1c9e32bc0e75db5edd0ec8b11c9346 = L.marker(
+                [43.19437802890506, -77.59717288],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_e13563810311ff42bf43a4a34beeea27 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9aa32480c093bec500021dde759c821 = $(`<div id="html_b9aa32480c093bec500021dde759c821" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 1490 HUDSON AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2022/08/23 01:52:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_e13563810311ff42bf43a4a34beeea27.setContent(html_b9aa32480c093bec500021dde759c821);
+            
+        
+
+        marker_ba1c9e32bc0e75db5edd0ec8b11c9346.bindPopup(popup_e13563810311ff42bf43a4a34beeea27)
+        ;
+
+        
+    
+    
+            var marker_47e62f70ff1ecf70e2c4f5edcad0d726 = L.marker(
+                [43.19437802890506, -77.59717288],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_a553d434c15e2e2b6442b9464e324da8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6991b8e0e0f6094b696b8dd8238298e = $(`<div id="html_c6991b8e0e0f6094b696b8dd8238298e" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 1490 HUDSON AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/04/17 21:07:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_a553d434c15e2e2b6442b9464e324da8.setContent(html_c6991b8e0e0f6094b696b8dd8238298e);
+            
+        
+
+        marker_47e62f70ff1ecf70e2c4f5edcad0d726.bindPopup(popup_a553d434c15e2e2b6442b9464e324da8)
+        ;
+
+        
+    
+    
+            var marker_944655cc25f425211184dd452b6acdbc = L.marker(
+                [43.15322318362252, -77.61051129],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_b6741fda8f188a52a5ff89c2f4a941e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_abf9276b0a346f6b14f5ed3de21065b5 = $(`<div id="html_abf9276b0a346f6b14f5ed3de21065b5" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 150 COURT ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/06/21 18:10:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_b6741fda8f188a52a5ff89c2f4a941e0.setContent(html_abf9276b0a346f6b14f5ed3de21065b5);
+            
+        
+
+        marker_944655cc25f425211184dd452b6acdbc.bindPopup(popup_b6741fda8f188a52a5ff89c2f4a941e0)
+        ;
+
+        
+    
+    
+            var marker_749fa2feb71e56b51ba97f6da15f6537 = L.marker(
+                [43.19456256061093, -77.62938234],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_6ac485a969b35837391a259318601d22 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b79216f3b99cca8188806e35ebe2dbaa = $(`<div id="html_b79216f3b99cca8188806e35ebe2dbaa" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 1525 LAKE AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2021/01/21 23:54:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_6ac485a969b35837391a259318601d22.setContent(html_b79216f3b99cca8188806e35ebe2dbaa);
+            
+        
+
+        marker_749fa2feb71e56b51ba97f6da15f6537.bindPopup(popup_6ac485a969b35837391a259318601d22)
+        ;
+
+        
+    
+    
+            var marker_0b19292968a8feba0b9a0b4139cc96df = L.marker(
+                [43.15650679713716, -77.60778108],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_e876e1a7842e5cedb29d89ceb6d73978 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b3b240305d48b7e3af0d551cad0c264 = $(`<div id="html_9b3b240305d48b7e3af0d551cad0c264" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 155 E MAIN ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/05/22 02:50:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_e876e1a7842e5cedb29d89ceb6d73978.setContent(html_9b3b240305d48b7e3af0d551cad0c264);
+            
+        
+
+        marker_0b19292968a8feba0b9a0b4139cc96df.bindPopup(popup_e876e1a7842e5cedb29d89ceb6d73978)
+        ;
+
+        
+    
+    
+            var marker_59482485b92e32178675a589cb794c8d = L.marker(
+                [43.15027233904501, -77.64251344],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_13979c02d75366f7afcc0b165a4ff904 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_100c306f9fa5e19eabfc10cd66278dc6 = $(`<div id="html_100c306f9fa5e19eabfc10cd66278dc6" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 160 WEST AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2024/01/25 15:05:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_13979c02d75366f7afcc0b165a4ff904.setContent(html_100c306f9fa5e19eabfc10cd66278dc6);
+            
+        
+
+        marker_59482485b92e32178675a589cb794c8d.bindPopup(popup_13979c02d75366f7afcc0b165a4ff904)
+        ;
+
+        
+    
+    
+            var marker_143cdb43770b1e89a75f0d760197c25d = L.marker(
+                [43.17738524689298, -77.58537792],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_e0823694e58970fb7ffb8ba977b88e5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35287d7e7edddf93145359be4bd6dea1 = $(`<div id="html_35287d7e7edddf93145359be4bd6dea1" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 165 FERNWOOD AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/02/07 16:30:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_e0823694e58970fb7ffb8ba977b88e5a.setContent(html_35287d7e7edddf93145359be4bd6dea1);
+            
+        
+
+        marker_143cdb43770b1e89a75f0d760197c25d.bindPopup(popup_e0823694e58970fb7ffb8ba977b88e5a)
+        ;
+
+        
+    
+    
+            var marker_7091d04152850b45b3b4f1b390d5dbcd = L.marker(
+                [43.157539114939325, -77.60673534],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_89001199fe6c18fd4ebc9f71b5978a48 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf7637ff3bb626640510457715df06b9 = $(`<div id="html_cf7637ff3bb626640510457715df06b9" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 17 N CLINTON AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/10/28 00:34:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_89001199fe6c18fd4ebc9f71b5978a48.setContent(html_cf7637ff3bb626640510457715df06b9);
+            
+        
+
+        marker_7091d04152850b45b3b4f1b390d5dbcd.bindPopup(popup_89001199fe6c18fd4ebc9f71b5978a48)
+        ;
+
+        
+    
+    
+            var marker_8da38cfefeab96650a66094980d382a1 = L.marker(
+                [43.17798812428734, -77.55816877],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_baaeff8cca6608ed3ff85c11c2fbacbd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f841f79a4ab7e35e9204bd89c115dd66 = $(`<div id="html_f841f79a4ab7e35e9204bd89c115dd66" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 1754 CULVER ROAD<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/10/01 17:30:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_baaeff8cca6608ed3ff85c11c2fbacbd.setContent(html_f841f79a4ab7e35e9204bd89c115dd66);
+            
+        
+
+        marker_8da38cfefeab96650a66094980d382a1.bindPopup(popup_baaeff8cca6608ed3ff85c11c2fbacbd)
+        ;
+
+        
+    
+    
+            var marker_099c6db773a44c6a2c1e6ae514fd3086 = L.marker(
+                [43.20003701, -77.63848041],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_bc6bce9ca9d07b4c2bf591c0cdcc991f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83432bbebf5dc6c271f73a95ec807aa3 = $(`<div id="html_83432bbebf5dc6c271f73a95ec807aa3" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 1776 DEWEY AVE<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2021/12/15 04:01:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_bc6bce9ca9d07b4c2bf591c0cdcc991f.setContent(html_83432bbebf5dc6c271f73a95ec807aa3);
+            
+        
+
+        marker_099c6db773a44c6a2c1e6ae514fd3086.bindPopup(popup_bc6bce9ca9d07b4c2bf591c0cdcc991f)
+        ;
+
+        
+    
+    
+            var marker_bf8947b7d630977166ca85c68b3afbce = L.marker(
+                [43.20169924762222, -77.63902067],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_cff407c29e27b291871fa6666f1c135c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b07a3a982908c60016cf0dc3e66cf1f = $(`<div id="html_1b07a3a982908c60016cf0dc3e66cf1f" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 1857 DEWEY AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/06/12 22:14:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_cff407c29e27b291871fa6666f1c135c.setContent(html_1b07a3a982908c60016cf0dc3e66cf1f);
+            
+        
+
+        marker_bf8947b7d630977166ca85c68b3afbce.bindPopup(popup_cff407c29e27b291871fa6666f1c135c)
+        ;
+
+        
+    
+    
+            var marker_9b35b24a2054b51527d8715c8ae55893 = L.marker(
+                [43.162599115365296, -77.60790045],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_263af2df5e8d22bea26d94ed2681dd96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1352323170ff8eb102d9588cea6f5870 = $(`<div id="html_1352323170ff8eb102d9588cea6f5870" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 186 CUMBERLAND ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/05/31 00:45:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_263af2df5e8d22bea26d94ed2681dd96.setContent(html_1352323170ff8eb102d9588cea6f5870);
+            
+        
+
+        marker_9b35b24a2054b51527d8715c8ae55893.bindPopup(popup_263af2df5e8d22bea26d94ed2681dd96)
+        ;
+
+        
+    
+    
+            var marker_650c635e7975258e0576f2eb299e7af5 = L.marker(
+                [43.162599115365296, -77.60790045],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_4b54d0ae4864596b9305686a5155bb6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c94e29e42cf00a22c4f40456135efe6 = $(`<div id="html_1c94e29e42cf00a22c4f40456135efe6" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 186 CUMBERLAND ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2021/09/23 10:33:00+00<br>     <b>Crime Type:</b> Burglary     </div>`)[0];
+                popup_4b54d0ae4864596b9305686a5155bb6c.setContent(html_1c94e29e42cf00a22c4f40456135efe6);
+            
+        
+
+        marker_650c635e7975258e0576f2eb299e7af5.bindPopup(popup_4b54d0ae4864596b9305686a5155bb6c)
+        ;
+
+        
+    
+    
+            var marker_67cf0eb25b2ff27b8c6e92011ef72493 = L.marker(
+                [43.162599115365296, -77.60790045],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_5f854c2f42cab159cc3e5309bca28a85 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c8fed2f0a26f2bbe9ee8c2cb8a0fa29 = $(`<div id="html_5c8fed2f0a26f2bbe9ee8c2cb8a0fa29" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 186 CUMBERLAND ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2025/03/03 14:00:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_5f854c2f42cab159cc3e5309bca28a85.setContent(html_5c8fed2f0a26f2bbe9ee8c2cb8a0fa29);
+            
+        
+
+        marker_67cf0eb25b2ff27b8c6e92011ef72493.bindPopup(popup_5f854c2f42cab159cc3e5309bca28a85)
+        ;
+
+        
+    
+    
+            var marker_d0ced29a832bd8b9ed9420957c0191bf = L.marker(
+                [43.162599115365296, -77.60790045],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_24b123e22873f62275fdc2150c34a69e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b53a7942461a2bf976eb69ddbbb84373 = $(`<div id="html_b53a7942461a2bf976eb69ddbbb84373" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 186 CUMBERLAND ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2025/06/12 14:05:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_24b123e22873f62275fdc2150c34a69e.setContent(html_b53a7942461a2bf976eb69ddbbb84373);
+            
+        
+
+        marker_d0ced29a832bd8b9ed9420957c0191bf.bindPopup(popup_24b123e22873f62275fdc2150c34a69e)
+        ;
+
+        
+    
+    
+            var marker_250bec8f62fb1a5fbe5b6c231609d275 = L.marker(
+                [43.19231851266717, -77.61782171],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_8de0d427b3a299f9b7862309ac0b750b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ddb35d031214a8d4f3f242a464c7fb03 = $(`<div id="html_ddb35d031214a8d4f3f242a464c7fb03" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 1980 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2021/09/17 13:35:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_8de0d427b3a299f9b7862309ac0b750b.setContent(html_ddb35d031214a8d4f3f242a464c7fb03);
+            
+        
+
+        marker_250bec8f62fb1a5fbe5b6c231609d275.bindPopup(popup_8de0d427b3a299f9b7862309ac0b750b)
+        ;
+
+        
+    
+    
+            var marker_bdbf93d00e1b91c9c40ab1a029801e4d = L.marker(
+                [43.16005877541728, -77.55778859],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_c14d26a608ddbb9df1fed94238b73396 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11069cf72e8312a9c10cbcfe5b7648b4 = $(`<div id="html_11069cf72e8312a9c10cbcfe5b7648b4" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 1990 E MAIN ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2021/04/14 17:15:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_c14d26a608ddbb9df1fed94238b73396.setContent(html_11069cf72e8312a9c10cbcfe5b7648b4);
+            
+        
+
+        marker_bdbf93d00e1b91c9c40ab1a029801e4d.bindPopup(popup_c14d26a608ddbb9df1fed94238b73396)
+        ;
+
+        
+    
+    
+            var marker_bf6e7b5b0d0c801f54e4483c83c91598 = L.marker(
+                [43.15460601683527, -77.61820703],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_fe58a18bfe95ea26abcbc1ccb2a0ad6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1dc0b0c2e6b68671ae01edffae7f0ffc = $(`<div id="html_1dc0b0c2e6b68671ae01edffae7f0ffc" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 206 W MAIN ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/06/25 22:45:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_fe58a18bfe95ea26abcbc1ccb2a0ad6e.setContent(html_1dc0b0c2e6b68671ae01edffae7f0ffc);
+            
+        
+
+        marker_bf6e7b5b0d0c801f54e4483c83c91598.bindPopup(popup_fe58a18bfe95ea26abcbc1ccb2a0ad6e)
+        ;
+
+        
+    
+    
+            var marker_8a2fc24b1dea695f65667c6e3e2775de = L.marker(
+                [43.16489443623036, -77.63273812],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_d241e8675b92b52bbc94403ef934287b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b009df898f903c3ba1664f4ce0fe65d1 = $(`<div id="html_b009df898f903c3ba1664f4ce0fe65d1" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 21 DEWEY AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/02/08 19:15:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_d241e8675b92b52bbc94403ef934287b.setContent(html_b009df898f903c3ba1664f4ce0fe65d1);
+            
+        
+
+        marker_8a2fc24b1dea695f65667c6e3e2775de.bindPopup(popup_d241e8675b92b52bbc94403ef934287b)
+        ;
+
+        
+    
+    
+            var marker_6a8826562e89d09e008c3533a69bfdee = L.marker(
+                [43.140540417187935, -77.58219417],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_8dba9020d7c153a3426cbadc787d200a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a5082b0f981681ed945c7a77b2a970b = $(`<div id="html_5a5082b0f981681ed945c7a77b2a970b" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 243 ROSEDALE ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2023/12/15 17:30:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_8dba9020d7c153a3426cbadc787d200a.setContent(html_5a5082b0f981681ed945c7a77b2a970b);
+            
+        
+
+        marker_6a8826562e89d09e008c3533a69bfdee.bindPopup(popup_8dba9020d7c153a3426cbadc787d200a)
+        ;
+
+        
+    
+    
+            var marker_608c9b8c57a741af7be64e1aaa624713 = L.marker(
+                [43.16890030398445, -77.6267998],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_816fd7cc9b6f714d88210462c70ee1b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d60716ec538f7987bebaeab93d9fcfeb = $(`<div id="html_d60716ec538f7987bebaeab93d9fcfeb" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 245 LAKE AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/07/24 23:04:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_816fd7cc9b6f714d88210462c70ee1b1.setContent(html_d60716ec538f7987bebaeab93d9fcfeb);
+            
+        
+
+        marker_608c9b8c57a741af7be64e1aaa624713.bindPopup(popup_816fd7cc9b6f714d88210462c70ee1b1)
+        ;
+
+        
+    
+    
+            var marker_0e3f8c049acf498a6c9f9b39cadc5963 = L.marker(
+                [43.16335183428374, -77.67442818],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_163c628870e2065ac23d4c3b48cc3a09 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7019ddd5fe0abd418afc6ed5c24c15f6 = $(`<div id="html_7019ddd5fe0abd418afc6ed5c24c15f6" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 269 ALVANAR ROAD<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/03/01 17:25:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_163c628870e2065ac23d4c3b48cc3a09.setContent(html_7019ddd5fe0abd418afc6ed5c24c15f6);
+            
+        
+
+        marker_0e3f8c049acf498a6c9f9b39cadc5963.bindPopup(popup_163c628870e2065ac23d4c3b48cc3a09)
+        ;
+
+        
+    
+    
+            var marker_74c88f5204ac416255b990b30ef62a55 = L.marker(
+                [43.19327372621046, -77.63244889],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_c282425ea232598bffab195455fb3975 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3a0343bcee3e939ddaa37f0570f8af6 = $(`<div id="html_c3a0343bcee3e939ddaa37f0570f8af6" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 296 FLOWER CITY PARK<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2024/03/22 19:59:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_c282425ea232598bffab195455fb3975.setContent(html_c3a0343bcee3e939ddaa37f0570f8af6);
+            
+        
+
+        marker_74c88f5204ac416255b990b30ef62a55.bindPopup(popup_c282425ea232598bffab195455fb3975)
+        ;
+
+        
+    
+    
+            var marker_0423156e2034d5f0b7b632f1229ca4fe = L.marker(
+                [43.15464097760937, -77.5626422],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_a24ebcee8fc411d728201fb26d9951b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5efb23687f7e5e2ac3b8d0687b8f86ba = $(`<div id="html_5efb23687f7e5e2ac3b8d0687b8f86ba" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 31 ALLANDALE AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/09/04 23:54:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_a24ebcee8fc411d728201fb26d9951b9.setContent(html_5efb23687f7e5e2ac3b8d0687b8f86ba);
+            
+        
+
+        marker_0423156e2034d5f0b7b632f1229ca4fe.bindPopup(popup_a24ebcee8fc411d728201fb26d9951b9)
+        ;
+
+        
+    
+    
+            var marker_905051a53dd729199d58759cd312e072 = L.marker(
+                [43.162749, -77.61019473],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_2278a01df6ef00c51ab0d58872170654 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b145c2e2750e435840b95b434b02a1d3 = $(`<div id="html_b145c2e2750e435840b95b434b02a1d3" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 320 CENTRAL AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2022/11/03 16:51:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_2278a01df6ef00c51ab0d58872170654.setContent(html_b145c2e2750e435840b95b434b02a1d3);
+            
+        
+
+        marker_905051a53dd729199d58759cd312e072.bindPopup(popup_2278a01df6ef00c51ab0d58872170654)
+        ;
+
+        
+    
+    
+            var marker_7796055fd1f8dd0e6d0600a77aa057f8 = L.marker(
+                [43.162749, -77.61019473],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_155206da4d48d9e36cdc09590f82c812 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97a84f08e7d7603afa1655427c687f09 = $(`<div id="html_97a84f08e7d7603afa1655427c687f09" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 320 CENTRAL AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/06/06 16:54:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_155206da4d48d9e36cdc09590f82c812.setContent(html_97a84f08e7d7603afa1655427c687f09);
+            
+        
+
+        marker_7796055fd1f8dd0e6d0600a77aa057f8.bindPopup(popup_155206da4d48d9e36cdc09590f82c812)
+        ;
+
+        
+    
+    
+            var marker_04cddd16874b568dd76727bdd7a0ae3d = L.marker(
+                [43.162749, -77.61019473],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_2203046476e6967dd860b9906cbaede6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9351023eac30d4bebbcadf2a61889c04 = $(`<div id="html_9351023eac30d4bebbcadf2a61889c04" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 320 CENTRAL AVE<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2022/10/12 14:30:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_2203046476e6967dd860b9906cbaede6.setContent(html_9351023eac30d4bebbcadf2a61889c04);
+            
+        
+
+        marker_04cddd16874b568dd76727bdd7a0ae3d.bindPopup(popup_2203046476e6967dd860b9906cbaede6)
+        ;
+
+        
+    
+    
+            var marker_c77043870be3707fe95a2cdee9ef0b54 = L.marker(
+                [43.162749, -77.61019473],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_bdeab76b2b2abe22e19d35ff92b8bf07 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5476ce211eeb00db19dd89c81d41ab6e = $(`<div id="html_5476ce211eeb00db19dd89c81d41ab6e" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 320 CENTRAL AVE<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2023/02/18 18:33:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_bdeab76b2b2abe22e19d35ff92b8bf07.setContent(html_5476ce211eeb00db19dd89c81d41ab6e);
+            
+        
+
+        marker_c77043870be3707fe95a2cdee9ef0b54.bindPopup(popup_bdeab76b2b2abe22e19d35ff92b8bf07)
+        ;
+
+        
+    
+    
+            var marker_32a486209af2c082f80c2eb92acb8f59 = L.marker(
+                [43.162749, -77.61019473],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_c88996f82b9477ca7edbbc6e5824983f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_916acdbb60860e2ce9eade26c0dcc698 = $(`<div id="html_916acdbb60860e2ce9eade26c0dcc698" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 320 CENTRAL AVE<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2024/02/17 05:53:00+00<br>     <b>Crime Type:</b> Burglary     </div>`)[0];
+                popup_c88996f82b9477ca7edbbc6e5824983f.setContent(html_916acdbb60860e2ce9eade26c0dcc698);
+            
+        
+
+        marker_32a486209af2c082f80c2eb92acb8f59.bindPopup(popup_c88996f82b9477ca7edbbc6e5824983f)
+        ;
+
+        
+    
+    
+            var marker_637184c3b9ae40d0b661d586918409c4 = L.marker(
+                [43.162749, -77.61019473],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_6cc0ce9dfef8f43ad9b0646ddcc8a779 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12d9b5861efbabb475c6ae295f69de2b = $(`<div id="html_12d9b5861efbabb475c6ae295f69de2b" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 320 CENTRAL AVE<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2024/09/29 18:50:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_6cc0ce9dfef8f43ad9b0646ddcc8a779.setContent(html_12d9b5861efbabb475c6ae295f69de2b);
+            
+        
+
+        marker_637184c3b9ae40d0b661d586918409c4.bindPopup(popup_6cc0ce9dfef8f43ad9b0646ddcc8a779)
+        ;
+
+        
+    
+    
+            var marker_f0a636b89ada073214c1fcfea7f2f9b8 = L.marker(
+                [43.162749, -77.61019473],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_611f8aedfb593b6212bffd3149c2e6e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2453e5d3ad09fe07070b0048a023e164 = $(`<div id="html_2453e5d3ad09fe07070b0048a023e164" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 320 CENTRAL AVE<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2024/11/05 04:38:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_611f8aedfb593b6212bffd3149c2e6e1.setContent(html_2453e5d3ad09fe07070b0048a023e164);
+            
+        
+
+        marker_f0a636b89ada073214c1fcfea7f2f9b8.bindPopup(popup_611f8aedfb593b6212bffd3149c2e6e1)
+        ;
+
+        
+    
+    
+            var marker_4d000405bb5f11d18db843a2b4666711 = L.marker(
+                [43.14350287444008, -77.63633167],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_4cb9d19953a1cbff9e6e2462d1dd7851 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c55fa27add3cd0c8de7617376fda68f = $(`<div id="html_9c55fa27add3cd0c8de7617376fda68f" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 337 GENESEE ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2024/12/20 19:30:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_4cb9d19953a1cbff9e6e2462d1dd7851.setContent(html_9c55fa27add3cd0c8de7617376fda68f);
+            
+        
+
+        marker_4d000405bb5f11d18db843a2b4666711.bindPopup(popup_4cb9d19953a1cbff9e6e2462d1dd7851)
+        ;
+
+        
+    
+    
+            var marker_c63bba0cde88da7c8a0c6ce9fe2caba7 = L.marker(
+                [43.138550423940686, -77.59478333],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_5587c37ef0d44818d0088112517b8576 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5d8c0e2a49cff3f7a528a5667c374f4 = $(`<div id="html_a5d8c0e2a49cff3f7a528a5667c374f4" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 338 BENTON ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2024/08/30 20:50:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_5587c37ef0d44818d0088112517b8576.setContent(html_a5d8c0e2a49cff3f7a528a5667c374f4);
+            
+        
+
+        marker_c63bba0cde88da7c8a0c6ce9fe2caba7.bindPopup(popup_5587c37ef0d44818d0088112517b8576)
+        ;
+
+        
+    
+    
+            var marker_7a3aae134be52798e3fb3812379a2f53 = L.marker(
+                [43.13906823903882, -77.64714309],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_90fdb4923c323976eb32253b85f6f33c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c5aa143f8ba5b6e939f9e4d40a69f164 = $(`<div id="html_c5aa143f8ba5b6e939f9e4d40a69f164" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 393 ABERDEEN ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/02/14 23:46:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_90fdb4923c323976eb32253b85f6f33c.setContent(html_c5aa143f8ba5b6e939f9e4d40a69f164);
+            
+        
+
+        marker_7a3aae134be52798e3fb3812379a2f53.bindPopup(popup_90fdb4923c323976eb32253b85f6f33c)
+        ;
+
+        
+    
+    
+            var marker_e031afcb16d5787d15d8a72c0c88b090 = L.marker(
+                [43.15332837590118, -77.62355554],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_4b6a0caa41ca8b4797c4b17bd85d01dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c74ec09022da09a494748ac3b3402016 = $(`<div id="html_c74ec09022da09a494748ac3b3402016" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 398 W MAIN ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/12/06 01:10:00+00<br>     <b>Crime Type:</b> Robbery     </div>`)[0];
+                popup_4b6a0caa41ca8b4797c4b17bd85d01dc.setContent(html_c74ec09022da09a494748ac3b3402016);
+            
+        
+
+        marker_e031afcb16d5787d15d8a72c0c88b090.bindPopup(popup_4b6a0caa41ca8b4797c4b17bd85d01dc)
+        ;
+
+        
+    
+    
+            var marker_2fa777cbd3e1396a268ecda130e3290b = L.marker(
+                [43.192932505119614, -77.6036951],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_ecdff92ee38b9f9d8b76fabfe2d49c0c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09a6b7bf0f31ad6ecc2cb6cbb4050738 = $(`<div id="html_09a6b7bf0f31ad6ecc2cb6cbb4050738" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 401 SENECA MANOR DR<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/06/27 19:30:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_ecdff92ee38b9f9d8b76fabfe2d49c0c.setContent(html_09a6b7bf0f31ad6ecc2cb6cbb4050738);
+            
+        
+
+        marker_2fa777cbd3e1396a268ecda130e3290b.bindPopup(popup_ecdff92ee38b9f9d8b76fabfe2d49c0c)
+        ;
+
+        
+    
+    
+            var marker_eebcb00e64796cd63d790d4cc5319979 = L.marker(
+                [43.24469238380804, -77.61776855],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_a275ce3bd9bfb50ffc70da597097dd0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_011aaf13acd4dd04d7bf8e09ada8520b = $(`<div id="html_011aaf13acd4dd04d7bf8e09ada8520b" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 4050 LAKE AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2022/11/10 01:51:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_a275ce3bd9bfb50ffc70da597097dd0b.setContent(html_011aaf13acd4dd04d7bf8e09ada8520b);
+            
+        
+
+        marker_eebcb00e64796cd63d790d4cc5319979.bindPopup(popup_a275ce3bd9bfb50ffc70da597097dd0b)
+        ;
+
+        
+    
+    
+            var marker_1cb846327687f6094f35d049888768f9 = L.marker(
+                [43.244803536832414, -77.61772671],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_98240453b8e957e0b1521a25826595a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_467918eadcced39a7c9476848849090c = $(`<div id="html_467918eadcced39a7c9476848849090c" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 4090 LAKE AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2022/06/14 19:20:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_98240453b8e957e0b1521a25826595a3.setContent(html_467918eadcced39a7c9476848849090c);
+            
+        
+
+        marker_1cb846327687f6094f35d049888768f9.bindPopup(popup_98240453b8e957e0b1521a25826595a3)
+        ;
+
+        
+    
+    
+            var marker_f069cbbb4f6d0c6ef3f9740781ca0dd0 = L.marker(
+                [43.17134534442518, -77.60760434],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_95231221eef4869722f56f6682b49360 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_969a1774e11b379e146d4ced92951e5c = $(`<div id="html_969a1774e11b379e146d4ced92951e5c" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 415 JOSEPH AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2022/11/18 23:53:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_95231221eef4869722f56f6682b49360.setContent(html_969a1774e11b379e146d4ced92951e5c);
+            
+        
+
+        marker_f069cbbb4f6d0c6ef3f9740781ca0dd0.bindPopup(popup_95231221eef4869722f56f6682b49360)
+        ;
+
+        
+    
+    
+            var marker_a6a1eeb7e958760a5bd0835ab4a88cac = L.marker(
+                [43.16483105060787, -77.62477043],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_12025712592eda2dfe82c4fe27d4b1aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbdf7b8b15466dd20fb027f541650984 = $(`<div id="html_fbdf7b8b15466dd20fb027f541650984" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 44 LYELL AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/05/15 20:15:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_12025712592eda2dfe82c4fe27d4b1aa.setContent(html_fbdf7b8b15466dd20fb027f541650984);
+            
+        
+
+        marker_a6a1eeb7e958760a5bd0835ab4a88cac.bindPopup(popup_12025712592eda2dfe82c4fe27d4b1aa)
+        ;
+
+        
+    
+    
+            var marker_2ee99abfbec2d2ba1981a0add63f69e6 = L.marker(
+                [43.172270353774806, -77.60030738],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_944b5d5c3c827c82ab4e02faf18bf2c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e0c203008fff14dce554183be432d43 = $(`<div id="html_8e0c203008fff14dce554183be432d43" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 449 HUDSON AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/02/06 19:30:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_944b5d5c3c827c82ab4e02faf18bf2c8.setContent(html_8e0c203008fff14dce554183be432d43);
+            
+        
+
+        marker_2ee99abfbec2d2ba1981a0add63f69e6.bindPopup(popup_944b5d5c3c827c82ab4e02faf18bf2c8)
+        ;
+
+        
+    
+    
+            var marker_bbf7cf3071ef46b3fa682610feaad1e7 = L.marker(
+                [43.16321301, -77.62199691],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_f2b7afa01f362039bdb85edb38af72c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_900a29219a54a9eb2b3a2736528df99d = $(`<div id="html_900a29219a54a9eb2b3a2736528df99d" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 485 STATE ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/01/25 15:40:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_f2b7afa01f362039bdb85edb38af72c6.setContent(html_900a29219a54a9eb2b3a2736528df99d);
+            
+        
+
+        marker_bbf7cf3071ef46b3fa682610feaad1e7.bindPopup(popup_f2b7afa01f362039bdb85edb38af72c6)
+        ;
+
+        
+    
+    
+            var marker_eb1f3c1ffa59f55fc5e5dde16f419947 = L.marker(
+                [43.16283854184293, -77.58292235],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_ec0f8989b7f3ed375d5c17052e139217 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fc26c11502151ca02df2b334ce8addb = $(`<div id="html_4fc26c11502151ca02df2b334ce8addb" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 494 N GOODMAN ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/04/19 23:44:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_ec0f8989b7f3ed375d5c17052e139217.setContent(html_4fc26c11502151ca02df2b334ce8addb);
+            
+        
+
+        marker_eb1f3c1ffa59f55fc5e5dde16f419947.bindPopup(popup_ec0f8989b7f3ed375d5c17052e139217)
+        ;
+
+        
+    
+    
+            var marker_ae3d0e4fba5561bbf8a3b1d1a55c63fb = L.marker(
+                [43.12981043108262, -77.62669822],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_a8c825d004461b14361b9d723573a301 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1876396e05609543711384ad8d0eb1aa = $(`<div id="html_1876396e05609543711384ad8d0eb1aa" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 500 JOSEPH C WILSON BLVD<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2022/11/27 21:25:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_a8c825d004461b14361b9d723573a301.setContent(html_1876396e05609543711384ad8d0eb1aa);
+            
+        
+
+        marker_ae3d0e4fba5561bbf8a3b1d1a55c63fb.bindPopup(popup_a8c825d004461b14361b9d723573a301)
+        ;
+
+        
+    
+    
+            var marker_9471ecf044dbcf222e75ab94b678ba37 = L.marker(
+                [43.14653574, -77.605466],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_48b7740dc1716bbcf7aac45b83a6b723 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_803cb0636edcca50c2090d09881d66ba = $(`<div id="html_803cb0636edcca50c2090d09881d66ba" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 500 SOUTH AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2024/09/26 02:50:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_48b7740dc1716bbcf7aac45b83a6b723.setContent(html_803cb0636edcca50c2090d09881d66ba);
+            
+        
+
+        marker_9471ecf044dbcf222e75ab94b678ba37.bindPopup(popup_48b7740dc1716bbcf7aac45b83a6b723)
+        ;
+
+        
+    
+    
+            var marker_e04ebdcfcfc5050f9e5cfe8e9b6ceef1 = L.marker(
+                [43.19732740526821, -77.64049593],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_5d8f85b954dd45dc08be1959730dbcf3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_32aff29e50662db4840d6ff84575ed51 = $(`<div id="html_32aff29e50662db4840d6ff84575ed51" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 52 STEKO AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/11/01 14:55:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_5d8f85b954dd45dc08be1959730dbcf3.setContent(html_32aff29e50662db4840d6ff84575ed51);
+            
+        
+
+        marker_e04ebdcfcfc5050f9e5cfe8e9b6ceef1.bindPopup(popup_5d8f85b954dd45dc08be1959730dbcf3)
+        ;
+
+        
+    
+    
+            var marker_69d50268279795b99e10e4fecf28a7af = L.marker(
+                [43.146075602143966, -77.59268903],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_b251e98efc27e240510e6d9d4654d5ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1366caee226c0265402d1f0bf680f22 = $(`<div id="html_d1366caee226c0265402d1f0bf680f22" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 546 MONROE AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/06/23 12:45:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_b251e98efc27e240510e6d9d4654d5ea.setContent(html_d1366caee226c0265402d1f0bf680f22);
+            
+        
+
+        marker_69d50268279795b99e10e4fecf28a7af.bindPopup(popup_b251e98efc27e240510e6d9d4654d5ea)
+        ;
+
+        
+    
+    
+            var marker_fbdac3ff702bf15327c1fe7de87d0802 = L.marker(
+                [43.14546362064003, -77.59254739],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_793ec584568b81033c381845d46d4396 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d0d258314264095372eaf81acbc408da = $(`<div id="html_d0d258314264095372eaf81acbc408da" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 565 MONROE AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2022/09/14 00:18:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_793ec584568b81033c381845d46d4396.setContent(html_d0d258314264095372eaf81acbc408da);
+            
+        
+
+        marker_fbdac3ff702bf15327c1fe7de87d0802.bindPopup(popup_793ec584568b81033c381845d46d4396)
+        ;
+
+        
+    
+    
+            var marker_dbe810181157f37f21bdb15fbd0035ad = L.marker(
+                [43.13102360518917, -77.65082533],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_b18373b92a73fbdfe2127638d89c5d90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f23a08696c3a24ab22ace2669a366919 = $(`<div id="html_f23a08696c3a24ab22ace2669a366919" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 570 BROOKS AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2021/01/05 20:20:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_b18373b92a73fbdfe2127638d89c5d90.setContent(html_f23a08696c3a24ab22ace2669a366919);
+            
+        
+
+        marker_dbe810181157f37f21bdb15fbd0035ad.bindPopup(popup_b18373b92a73fbdfe2127638d89c5d90)
+        ;
+
+        
+    
+    
+            var marker_6f46faa2f821eb43d5716b19c25db1d6 = L.marker(
+                [43.17030829585337, -77.6020907],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_becb5f92ad5371bde2c3831fde4a2a8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7da9b562cd32537149659a2fa713522 = $(`<div id="html_c7da9b562cd32537149659a2fa713522" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 595 UPPER FALLS BLVD<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2024/10/10 16:10:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_becb5f92ad5371bde2c3831fde4a2a8e.setContent(html_c7da9b562cd32537149659a2fa713522);
+            
+        
+
+        marker_6f46faa2f821eb43d5716b19c25db1d6.bindPopup(popup_becb5f92ad5371bde2c3831fde4a2a8e)
+        ;
+
+        
+    
+    
+            var marker_5ac6c0bfd411f2d73d4291d0ebd7219c = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_666b0731fdf8d883be4f86963acedcfc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e6ad23d9164ef364516e9eb8a5340807 = $(`<div id="html_e6ad23d9164ef364516e9eb8a5340807" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2021/01/27 21:01:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_666b0731fdf8d883be4f86963acedcfc.setContent(html_e6ad23d9164ef364516e9eb8a5340807);
+            
+        
+
+        marker_5ac6c0bfd411f2d73d4291d0ebd7219c.bindPopup(popup_666b0731fdf8d883be4f86963acedcfc)
+        ;
+
+        
+    
+    
+            var marker_63467c55410ca34eb39b397cf04c7c67 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_55b4dbc7f5fa875fdda85a42e8a04c6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22ac89217a8aabe57983e79ebf869f92 = $(`<div id="html_22ac89217a8aabe57983e79ebf869f92" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2021/05/25 14:34:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_55b4dbc7f5fa875fdda85a42e8a04c6d.setContent(html_22ac89217a8aabe57983e79ebf869f92);
+            
+        
+
+        marker_63467c55410ca34eb39b397cf04c7c67.bindPopup(popup_55b4dbc7f5fa875fdda85a42e8a04c6d)
+        ;
+
+        
+    
+    
+            var marker_6bd89438fc0c6a5e6403e73909c96f4b = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_2aac4a560186ffe1eabed0d8d60a88c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4db3b797dc72f935205e43e31af289d = $(`<div id="html_d4db3b797dc72f935205e43e31af289d" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2021/12/15 13:50:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_2aac4a560186ffe1eabed0d8d60a88c8.setContent(html_d4db3b797dc72f935205e43e31af289d);
+            
+        
+
+        marker_6bd89438fc0c6a5e6403e73909c96f4b.bindPopup(popup_2aac4a560186ffe1eabed0d8d60a88c8)
+        ;
+
+        
+    
+    
+            var marker_8e2d7eeec17b9425bd4faaf4db929f3c = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_5146a4e2e5006c266ec88c824b2801ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac5d576f2b58024c5eac735cccc6e060 = $(`<div id="html_ac5d576f2b58024c5eac735cccc6e060" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2022/06/16 11:03:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_5146a4e2e5006c266ec88c824b2801ef.setContent(html_ac5d576f2b58024c5eac735cccc6e060);
+            
+        
+
+        marker_8e2d7eeec17b9425bd4faaf4db929f3c.bindPopup(popup_5146a4e2e5006c266ec88c824b2801ef)
+        ;
+
+        
+    
+    
+            var marker_ea2ed19bd613ed8cf091a2f9d2206bed = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_cfcc31b59173048b82206f272295f549 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aeace4c8699ce170f1f96cd521a4719e = $(`<div id="html_aeace4c8699ce170f1f96cd521a4719e" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2022/08/11 21:40:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_cfcc31b59173048b82206f272295f549.setContent(html_aeace4c8699ce170f1f96cd521a4719e);
+            
+        
+
+        marker_ea2ed19bd613ed8cf091a2f9d2206bed.bindPopup(popup_cfcc31b59173048b82206f272295f549)
+        ;
+
+        
+    
+    
+            var marker_447efcf39fe349125d194387f32bde73 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_c0204dc19adb71a1c814cbafcc84ddb1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53d3311d24b6c4b1f184aa3bacea7562 = $(`<div id="html_53d3311d24b6c4b1f184aa3bacea7562" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2022/09/29 14:10:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_c0204dc19adb71a1c814cbafcc84ddb1.setContent(html_53d3311d24b6c4b1f184aa3bacea7562);
+            
+        
+
+        marker_447efcf39fe349125d194387f32bde73.bindPopup(popup_c0204dc19adb71a1c814cbafcc84ddb1)
+        ;
+
+        
+    
+    
+            var marker_f46cf017696218288eb01ec919d101e8 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_70ad4563d8556b2b5ecb2dca5bd95381 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5cbfa9c433aa6bad6d5659c4d10c1c53 = $(`<div id="html_5cbfa9c433aa6bad6d5659c4d10c1c53" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2022/11/10 17:11:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_70ad4563d8556b2b5ecb2dca5bd95381.setContent(html_5cbfa9c433aa6bad6d5659c4d10c1c53);
+            
+        
+
+        marker_f46cf017696218288eb01ec919d101e8.bindPopup(popup_70ad4563d8556b2b5ecb2dca5bd95381)
+        ;
+
+        
+    
+    
+            var marker_8d364cbb9acc638d2294d3ae6c047a5c = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_2c9d89afe9dd134d461c3089d6dbdc8c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ddb7b13a39fd4614da48ab0933bd9ad2 = $(`<div id="html_ddb7b13a39fd4614da48ab0933bd9ad2" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2022/08/14 18:21:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_2c9d89afe9dd134d461c3089d6dbdc8c.setContent(html_ddb7b13a39fd4614da48ab0933bd9ad2);
+            
+        
+
+        marker_8d364cbb9acc638d2294d3ae6c047a5c.bindPopup(popup_2c9d89afe9dd134d461c3089d6dbdc8c)
+        ;
+
+        
+    
+    
+            var marker_e43f07e8408f66f9bedc9cf67528b78a = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_a76be92c3f109307d66ade35b2dc0945 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09a55db716a695897f8893ecf31a2d83 = $(`<div id="html_09a55db716a695897f8893ecf31a2d83" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/02/06 19:38:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_a76be92c3f109307d66ade35b2dc0945.setContent(html_09a55db716a695897f8893ecf31a2d83);
+            
+        
+
+        marker_e43f07e8408f66f9bedc9cf67528b78a.bindPopup(popup_a76be92c3f109307d66ade35b2dc0945)
+        ;
+
+        
+    
+    
+            var marker_046133a24e0794b0d3b12177714e73fa = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_7c9457fe407bdfd56b39b1e6364bf032 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8257767a6b7df992fa13b8404777749c = $(`<div id="html_8257767a6b7df992fa13b8404777749c" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/03/20 18:40:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_7c9457fe407bdfd56b39b1e6364bf032.setContent(html_8257767a6b7df992fa13b8404777749c);
+            
+        
+
+        marker_046133a24e0794b0d3b12177714e73fa.bindPopup(popup_7c9457fe407bdfd56b39b1e6364bf032)
+        ;
+
+        
+    
+    
+            var marker_270885ef1067a68aee185e5d80d695d3 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_ea7453919278646425a5dc1219f522fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_317b7847e1a73e5db9fad34644871fb7 = $(`<div id="html_317b7847e1a73e5db9fad34644871fb7" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/04/16 06:25:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_ea7453919278646425a5dc1219f522fa.setContent(html_317b7847e1a73e5db9fad34644871fb7);
+            
+        
+
+        marker_270885ef1067a68aee185e5d80d695d3.bindPopup(popup_ea7453919278646425a5dc1219f522fa)
+        ;
+
+        
+    
+    
+            var marker_98b5fcc0bfa19d64e60818d56e7049c8 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_3b56fe8e8375f8c821b37e27525fd014 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_551e5064499f647adac9912d913d3f1c = $(`<div id="html_551e5064499f647adac9912d913d3f1c" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/06/05 18:15:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_3b56fe8e8375f8c821b37e27525fd014.setContent(html_551e5064499f647adac9912d913d3f1c);
+            
+        
+
+        marker_98b5fcc0bfa19d64e60818d56e7049c8.bindPopup(popup_3b56fe8e8375f8c821b37e27525fd014)
+        ;
+
+        
+    
+    
+            var marker_2537606a3b9dc083ebeaa510d5ed7326 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_c8099e1c8874be3ce72e71b42f47af6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dbcdf0f544ffd946494d838efb1e73c6 = $(`<div id="html_dbcdf0f544ffd946494d838efb1e73c6" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/06/15 22:10:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_c8099e1c8874be3ce72e71b42f47af6a.setContent(html_dbcdf0f544ffd946494d838efb1e73c6);
+            
+        
+
+        marker_2537606a3b9dc083ebeaa510d5ed7326.bindPopup(popup_c8099e1c8874be3ce72e71b42f47af6a)
+        ;
+
+        
+    
+    
+            var marker_a569d9377fda24fd22f567e973be3ff7 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_eba10a3fa0989203aaa4a216a1969758 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec5e1aed11e4a15cc49d4f5137d8f238 = $(`<div id="html_ec5e1aed11e4a15cc49d4f5137d8f238" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/06/16 17:40:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_eba10a3fa0989203aaa4a216a1969758.setContent(html_ec5e1aed11e4a15cc49d4f5137d8f238);
+            
+        
+
+        marker_a569d9377fda24fd22f567e973be3ff7.bindPopup(popup_eba10a3fa0989203aaa4a216a1969758)
+        ;
+
+        
+    
+    
+            var marker_f816572e61cd7d2e43c8b3b88926ed1c = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_3ce9232b7a5e8492320560f510602def = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8dae48cd5a693ca76e02f3074293e9e = $(`<div id="html_c8dae48cd5a693ca76e02f3074293e9e" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/07/11 15:14:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_3ce9232b7a5e8492320560f510602def.setContent(html_c8dae48cd5a693ca76e02f3074293e9e);
+            
+        
+
+        marker_f816572e61cd7d2e43c8b3b88926ed1c.bindPopup(popup_3ce9232b7a5e8492320560f510602def)
+        ;
+
+        
+    
+    
+            var marker_0bc651be5b13ad75e318b6f4b5254694 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_83d58ee8b3279288c41c4ca1b9c5104b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e7e5f601f494c06c3181c4a123c7db5 = $(`<div id="html_8e7e5f601f494c06c3181c4a123c7db5" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/08/21 18:11:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_83d58ee8b3279288c41c4ca1b9c5104b.setContent(html_8e7e5f601f494c06c3181c4a123c7db5);
+            
+        
+
+        marker_0bc651be5b13ad75e318b6f4b5254694.bindPopup(popup_83d58ee8b3279288c41c4ca1b9c5104b)
+        ;
+
+        
+    
+    
+            var marker_eeee25639722888d7ae3da9e58aa5416 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_d325f2b9d00303b2c9c7f68c8aa417da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d46084a5f87a4c5669ba62f521905496 = $(`<div id="html_d46084a5f87a4c5669ba62f521905496" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/10/30 17:00:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_d325f2b9d00303b2c9c7f68c8aa417da.setContent(html_d46084a5f87a4c5669ba62f521905496);
+            
+        
+
+        marker_eeee25639722888d7ae3da9e58aa5416.bindPopup(popup_d325f2b9d00303b2c9c7f68c8aa417da)
+        ;
+
+        
+    
+    
+            var marker_6e3e4c97d5fd7e447dafa7512ee76df0 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_ca54a97de474bacc10bf64f7b7881240 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c02a7a9a73eeda550a61362ce9144cb = $(`<div id="html_8c02a7a9a73eeda550a61362ce9144cb" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/12/05 01:40:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_ca54a97de474bacc10bf64f7b7881240.setContent(html_8c02a7a9a73eeda550a61362ce9144cb);
+            
+        
+
+        marker_6e3e4c97d5fd7e447dafa7512ee76df0.bindPopup(popup_ca54a97de474bacc10bf64f7b7881240)
+        ;
+
+        
+    
+    
+            var marker_c80979c1c0e0cb9924e9bcb5ac14138f = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_d57f843bb2f70a0c121fe9e505f04418 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7df8a455282eb0796d106f027949501d = $(`<div id="html_7df8a455282eb0796d106f027949501d" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2024/03/18 13:45:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_d57f843bb2f70a0c121fe9e505f04418.setContent(html_7df8a455282eb0796d106f027949501d);
+            
+        
+
+        marker_c80979c1c0e0cb9924e9bcb5ac14138f.bindPopup(popup_d57f843bb2f70a0c121fe9e505f04418)
+        ;
+
+        
+    
+    
+            var marker_315bf7fdf25b83c51ddf49f029686feb = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_6933e1219b43dc9f4c14768517ddb34d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f0875bf0ac3ef79676e1a74b5f1716fc = $(`<div id="html_f0875bf0ac3ef79676e1a74b5f1716fc" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2024/04/12 00:41:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_6933e1219b43dc9f4c14768517ddb34d.setContent(html_f0875bf0ac3ef79676e1a74b5f1716fc);
+            
+        
+
+        marker_315bf7fdf25b83c51ddf49f029686feb.bindPopup(popup_6933e1219b43dc9f4c14768517ddb34d)
+        ;
+
+        
+    
+    
+            var marker_687c3d260f56320294541ddfbb90164e = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_563eac23670eb5fe1c7a51d235703a45 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd1ac5e1d5426fcf3a515676388597bc = $(`<div id="html_cd1ac5e1d5426fcf3a515676388597bc" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2024/11/07 18:20:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_563eac23670eb5fe1c7a51d235703a45.setContent(html_cd1ac5e1d5426fcf3a515676388597bc);
+            
+        
+
+        marker_687c3d260f56320294541ddfbb90164e.bindPopup(popup_563eac23670eb5fe1c7a51d235703a45)
+        ;
+
+        
+    
+    
+            var marker_d42227583f17b830ff01e5cd63154eb9 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_4b01b8d0be8275bb6040b20c001a431a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9982effa079a56767b32193f9d9e8fa8 = $(`<div id="html_9982effa079a56767b32193f9d9e8fa8" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/07/23 19:00:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_4b01b8d0be8275bb6040b20c001a431a.setContent(html_9982effa079a56767b32193f9d9e8fa8);
+            
+        
+
+        marker_d42227583f17b830ff01e5cd63154eb9.bindPopup(popup_4b01b8d0be8275bb6040b20c001a431a)
+        ;
+
+        
+    
+    
+            var marker_1080ce0532a59f2ec41e3eb9e451a8fb = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_acd4ca6ffd75160d98e204458f9e0008 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_499b0318e0bd01dec42cd51639be201e = $(`<div id="html_499b0318e0bd01dec42cd51639be201e" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/02/19 18:00:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_acd4ca6ffd75160d98e204458f9e0008.setContent(html_499b0318e0bd01dec42cd51639be201e);
+            
+        
+
+        marker_1080ce0532a59f2ec41e3eb9e451a8fb.bindPopup(popup_acd4ca6ffd75160d98e204458f9e0008)
+        ;
+
+        
+    
+    
+            var marker_ee106035b1bbd2eb04f82dee4d13bc95 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_9f0754be752fe3cd64aedfb1dbb3bbad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e5e2de5b75d16a9da696236ff877a53 = $(`<div id="html_5e5e2de5b75d16a9da696236ff877a53" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/02/26 02:04:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_9f0754be752fe3cd64aedfb1dbb3bbad.setContent(html_5e5e2de5b75d16a9da696236ff877a53);
+            
+        
+
+        marker_ee106035b1bbd2eb04f82dee4d13bc95.bindPopup(popup_9f0754be752fe3cd64aedfb1dbb3bbad)
+        ;
+
+        
+    
+    
+            var marker_d057316ceeda36d32c67d008170b6ba7 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_0578dd74c587669bc9bc814d7e8a58c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b9428e53b01c77bc49b4a0e717b69ca = $(`<div id="html_0b9428e53b01c77bc49b4a0e717b69ca" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/03/31 11:45:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_0578dd74c587669bc9bc814d7e8a58c8.setContent(html_0b9428e53b01c77bc49b4a0e717b69ca);
+            
+        
+
+        marker_d057316ceeda36d32c67d008170b6ba7.bindPopup(popup_0578dd74c587669bc9bc814d7e8a58c8)
+        ;
+
+        
+    
+    
+            var marker_aa76501177051d549ce7673b861f1184 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_a2367759633aa241844444ea47239457 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91ac4fa34e483b8f829ef6f7be6e45db = $(`<div id="html_91ac4fa34e483b8f829ef6f7be6e45db" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/05/06 15:15:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_a2367759633aa241844444ea47239457.setContent(html_91ac4fa34e483b8f829ef6f7be6e45db);
+            
+        
+
+        marker_aa76501177051d549ce7673b861f1184.bindPopup(popup_a2367759633aa241844444ea47239457)
+        ;
+
+        
+    
+    
+            var marker_f4aef44c58bade0ff21adee26f535ce5 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_e06df10b2345ff492bc83fa7f5172bf0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b50d15d7d49c559750674eaf41dc567 = $(`<div id="html_5b50d15d7d49c559750674eaf41dc567" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/06/02 17:19:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_e06df10b2345ff492bc83fa7f5172bf0.setContent(html_5b50d15d7d49c559750674eaf41dc567);
+            
+        
+
+        marker_f4aef44c58bade0ff21adee26f535ce5.bindPopup(popup_e06df10b2345ff492bc83fa7f5172bf0)
+        ;
+
+        
+    
+    
+            var marker_deca2771f215ea180fe8eb078b30fdd9 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_c5cc3d2e103659b454fcfb006f5b7df3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c29be0e48681fae97fc1e1debe4a8f69 = $(`<div id="html_c29be0e48681fae97fc1e1debe4a8f69" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/06/26 16:00:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_c5cc3d2e103659b454fcfb006f5b7df3.setContent(html_c29be0e48681fae97fc1e1debe4a8f69);
+            
+        
+
+        marker_deca2771f215ea180fe8eb078b30fdd9.bindPopup(popup_c5cc3d2e103659b454fcfb006f5b7df3)
+        ;
+
+        
+    
+    
+            var marker_3461c2b806ea798606c0b922014a99cb = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_e6858c4de2e40f0d5b556275c6947ce2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a71fea46e85252575196b2fc2c00ca9 = $(`<div id="html_6a71fea46e85252575196b2fc2c00ca9" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/06/27 15:39:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_e6858c4de2e40f0d5b556275c6947ce2.setContent(html_6a71fea46e85252575196b2fc2c00ca9);
+            
+        
+
+        marker_3461c2b806ea798606c0b922014a99cb.bindPopup(popup_e6858c4de2e40f0d5b556275c6947ce2)
+        ;
+
+        
+    
+    
+            var marker_983a7b714e57f6c5da762eab1ade483e = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_d06c8b0b532a3eab4dc6237c072c3a43 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6597fc25b848df142c95ebe369ba4a4 = $(`<div id="html_c6597fc25b848df142c95ebe369ba4a4" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/07/02 21:35:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_d06c8b0b532a3eab4dc6237c072c3a43.setContent(html_c6597fc25b848df142c95ebe369ba4a4);
+            
+        
+
+        marker_983a7b714e57f6c5da762eab1ade483e.bindPopup(popup_d06c8b0b532a3eab4dc6237c072c3a43)
+        ;
+
+        
+    
+    
+            var marker_0fc4cac81760cce1a0f03f8a614e1d5a = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_2cc05c1a0deebb6ed0f92a48ae776c36 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b4b31cefa9b028fcd16bd7873758c17 = $(`<div id="html_1b4b31cefa9b028fcd16bd7873758c17" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/07/23 22:45:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_2cc05c1a0deebb6ed0f92a48ae776c36.setContent(html_1b4b31cefa9b028fcd16bd7873758c17);
+            
+        
+
+        marker_0fc4cac81760cce1a0f03f8a614e1d5a.bindPopup(popup_2cc05c1a0deebb6ed0f92a48ae776c36)
+        ;
+
+        
+    
+    
+            var marker_b8611adefb1b61df158f095e5a3817c5 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_4a7845bb176f6da5941404e61afd6fba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc9cc7d6ce8254c7a6c10ad176a6500c = $(`<div id="html_cc9cc7d6ce8254c7a6c10ad176a6500c" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/08/04 12:48:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_4a7845bb176f6da5941404e61afd6fba.setContent(html_cc9cc7d6ce8254c7a6c10ad176a6500c);
+            
+        
+
+        marker_b8611adefb1b61df158f095e5a3817c5.bindPopup(popup_4a7845bb176f6da5941404e61afd6fba)
+        ;
+
+        
+    
+    
+            var marker_001a49db916bedfd6fb9a748709c1711 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_ce829998f46ddf6c25fdddcf216cb477 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a1133606eaf976c3ba4f2b1a5fdbefed = $(`<div id="html_a1133606eaf976c3ba4f2b1a5fdbefed" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2021/03/06 05:05:00+00<br>     <b>Crime Type:</b> Aggravated Assault     </div>`)[0];
+                popup_ce829998f46ddf6c25fdddcf216cb477.setContent(html_a1133606eaf976c3ba4f2b1a5fdbefed);
+            
+        
+
+        marker_001a49db916bedfd6fb9a748709c1711.bindPopup(popup_ce829998f46ddf6c25fdddcf216cb477)
+        ;
+
+        
+    
+    
+            var marker_b0f1b4e1df0071a51118d2201359d455 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_8a1413fd1e0ed3d8e155a1a06b20071e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca3def8249708666c3e5cbe1cf1aa030 = $(`<div id="html_ca3def8249708666c3e5cbe1cf1aa030" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2021/12/21 21:08:00+00<br>     <b>Crime Type:</b> Aggravated Assault     </div>`)[0];
+                popup_8a1413fd1e0ed3d8e155a1a06b20071e.setContent(html_ca3def8249708666c3e5cbe1cf1aa030);
+            
+        
+
+        marker_b0f1b4e1df0071a51118d2201359d455.bindPopup(popup_8a1413fd1e0ed3d8e155a1a06b20071e)
+        ;
+
+        
+    
+    
+            var marker_1bcff67a9b178997ed6a15a992a2549a = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_e99ccff2c1e0a60c3ad4a53a565cdaff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc5b15edfd9fd1601bd7424c0ce087d7 = $(`<div id="html_bc5b15edfd9fd1601bd7424c0ce087d7" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2021/11/12 16:45:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_e99ccff2c1e0a60c3ad4a53a565cdaff.setContent(html_bc5b15edfd9fd1601bd7424c0ce087d7);
+            
+        
+
+        marker_1bcff67a9b178997ed6a15a992a2549a.bindPopup(popup_e99ccff2c1e0a60c3ad4a53a565cdaff)
+        ;
+
+        
+    
+    
+            var marker_56070d6f9e880ef838cbb488457b6338 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_231a0722d7174f8f4777e4e6465551f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_223a86601e88c8e66b68596fd4b675b7 = $(`<div id="html_223a86601e88c8e66b68596fd4b675b7" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2021/11/17 22:11:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_231a0722d7174f8f4777e4e6465551f6.setContent(html_223a86601e88c8e66b68596fd4b675b7);
+            
+        
+
+        marker_56070d6f9e880ef838cbb488457b6338.bindPopup(popup_231a0722d7174f8f4777e4e6465551f6)
+        ;
+
+        
+    
+    
+            var marker_24a2615323c10456456a52bc51e9cb88 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_c1a9ec0b79da117d2f302bd971e17529 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c29483db203500c684b18dfd59054c5 = $(`<div id="html_0c29483db203500c684b18dfd59054c5" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2022/10/18 21:34:00+00<br>     <b>Crime Type:</b> Robbery     </div>`)[0];
+                popup_c1a9ec0b79da117d2f302bd971e17529.setContent(html_0c29483db203500c684b18dfd59054c5);
+            
+        
+
+        marker_24a2615323c10456456a52bc51e9cb88.bindPopup(popup_c1a9ec0b79da117d2f302bd971e17529)
+        ;
+
+        
+    
+    
+            var marker_946042f2dcb663ffeed3fb842f4c348e = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_c37a4977eb7f9de1c5ffce12bfa8d2c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2228cfaadb9300a8f755c9a39f290fa7 = $(`<div id="html_2228cfaadb9300a8f755c9a39f290fa7" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2022/09/02 02:46:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_c37a4977eb7f9de1c5ffce12bfa8d2c9.setContent(html_2228cfaadb9300a8f755c9a39f290fa7);
+            
+        
+
+        marker_946042f2dcb663ffeed3fb842f4c348e.bindPopup(popup_c37a4977eb7f9de1c5ffce12bfa8d2c9)
+        ;
+
+        
+    
+    
+            var marker_b677cc103991a3f68c1c4a340439b768 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_5eb67342665ecdfe6f2ed7d8db628338 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c110f40eb61ddf0a62ce2fcb1b4fa5f = $(`<div id="html_3c110f40eb61ddf0a62ce2fcb1b4fa5f" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2022/09/30 21:02:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_5eb67342665ecdfe6f2ed7d8db628338.setContent(html_3c110f40eb61ddf0a62ce2fcb1b4fa5f);
+            
+        
+
+        marker_b677cc103991a3f68c1c4a340439b768.bindPopup(popup_5eb67342665ecdfe6f2ed7d8db628338)
+        ;
+
+        
+    
+    
+            var marker_cd0d7cb978a9cf966a2148eb7f1a2eba = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_9a79592bf54b4b1d32527dcc6850d65e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80c96de678c3b086128ddb2719102316 = $(`<div id="html_80c96de678c3b086128ddb2719102316" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2022/11/09 14:30:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_9a79592bf54b4b1d32527dcc6850d65e.setContent(html_80c96de678c3b086128ddb2719102316);
+            
+        
+
+        marker_cd0d7cb978a9cf966a2148eb7f1a2eba.bindPopup(popup_9a79592bf54b4b1d32527dcc6850d65e)
+        ;
+
+        
+    
+    
+            var marker_4204f4d64c4a5c8a7a8d935509a1898a = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_024d3aab7e3743b9cdbd8e4653408d69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79a0cf4605838cd84adad899f581ebd7 = $(`<div id="html_79a0cf4605838cd84adad899f581ebd7" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2022/01/10 22:25:00+00<br>     <b>Crime Type:</b> Robbery     </div>`)[0];
+                popup_024d3aab7e3743b9cdbd8e4653408d69.setContent(html_79a0cf4605838cd84adad899f581ebd7);
+            
+        
+
+        marker_4204f4d64c4a5c8a7a8d935509a1898a.bindPopup(popup_024d3aab7e3743b9cdbd8e4653408d69)
+        ;
+
+        
+    
+    
+            var marker_bdc46a65b57d947b01b3f2bdb9dace45 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_9eca18cc8f6639ca93a9208b7598ac21 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c2c6aa04cd76d5fe9f57c5beda45db3 = $(`<div id="html_3c2c6aa04cd76d5fe9f57c5beda45db3" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2023/01/20 22:08:00+00<br>     <b>Crime Type:</b> Aggravated Assault     </div>`)[0];
+                popup_9eca18cc8f6639ca93a9208b7598ac21.setContent(html_3c2c6aa04cd76d5fe9f57c5beda45db3);
+            
+        
+
+        marker_bdc46a65b57d947b01b3f2bdb9dace45.bindPopup(popup_9eca18cc8f6639ca93a9208b7598ac21)
+        ;
+
+        
+    
+    
+            var marker_8d8d57a7acc73fdc1cbb5fc14d724b0d = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_03ae658b8f720dd71512974343edc87e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff8acfa874583c1d6f1cf5091b5881f9 = $(`<div id="html_ff8acfa874583c1d6f1cf5091b5881f9" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2023/12/09 01:08:00+00<br>     <b>Crime Type:</b> Aggravated Assault     </div>`)[0];
+                popup_03ae658b8f720dd71512974343edc87e.setContent(html_ff8acfa874583c1d6f1cf5091b5881f9);
+            
+        
+
+        marker_8d8d57a7acc73fdc1cbb5fc14d724b0d.bindPopup(popup_03ae658b8f720dd71512974343edc87e)
+        ;
+
+        
+    
+    
+            var marker_5a9077a111576175d7885be4be6d9f2d = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_1e1a22c733aa46910d9ca9caceb42577 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0eb841bba8685e5ce61b7c87bf0fb8cc = $(`<div id="html_0eb841bba8685e5ce61b7c87bf0fb8cc" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2023/11/21 12:43:00+00<br>     <b>Crime Type:</b> Murder     </div>`)[0];
+                popup_1e1a22c733aa46910d9ca9caceb42577.setContent(html_0eb841bba8685e5ce61b7c87bf0fb8cc);
+            
+        
+
+        marker_5a9077a111576175d7885be4be6d9f2d.bindPopup(popup_1e1a22c733aa46910d9ca9caceb42577)
+        ;
+
+        
+    
+    
+            var marker_90424ae4f9201f9a7a58f0cefa91cf32 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_f14d8546061310516ea1db671afc7964 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6db2aa0704ec6bf9e5745ff63d980a5 = $(`<div id="html_d6db2aa0704ec6bf9e5745ff63d980a5" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2023/01/11 22:40:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_f14d8546061310516ea1db671afc7964.setContent(html_d6db2aa0704ec6bf9e5745ff63d980a5);
+            
+        
+
+        marker_90424ae4f9201f9a7a58f0cefa91cf32.bindPopup(popup_f14d8546061310516ea1db671afc7964)
+        ;
+
+        
+    
+    
+            var marker_c7460373d83f866916bd8632209cfccc = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_32f95cdf29924c5695b99b775d34cedb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f9cbd9f30baec0b734813cbd169e445 = $(`<div id="html_3f9cbd9f30baec0b734813cbd169e445" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2023/06/24 19:25:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_32f95cdf29924c5695b99b775d34cedb.setContent(html_3f9cbd9f30baec0b734813cbd169e445);
+            
+        
+
+        marker_c7460373d83f866916bd8632209cfccc.bindPopup(popup_32f95cdf29924c5695b99b775d34cedb)
+        ;
+
+        
+    
+    
+            var marker_7a8dc4c073181f28a044bfbdd74d1a4e = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_25f90105b0c7ecf35da66992d049b57e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf17c6af8668055cfacbefe2a266ca67 = $(`<div id="html_cf17c6af8668055cfacbefe2a266ca67" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2023/06/30 00:43:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_25f90105b0c7ecf35da66992d049b57e.setContent(html_cf17c6af8668055cfacbefe2a266ca67);
+            
+        
+
+        marker_7a8dc4c073181f28a044bfbdd74d1a4e.bindPopup(popup_25f90105b0c7ecf35da66992d049b57e)
+        ;
+
+        
+    
+    
+            var marker_2dd853aa21d9a52aa1ba9e92e1108e05 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_c24ff70739c2de29e1927188d5282d1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_864ce9d083dd4873db5906fa43e4ac4c = $(`<div id="html_864ce9d083dd4873db5906fa43e4ac4c" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2023/09/07 00:12:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_c24ff70739c2de29e1927188d5282d1f.setContent(html_864ce9d083dd4873db5906fa43e4ac4c);
+            
+        
+
+        marker_2dd853aa21d9a52aa1ba9e92e1108e05.bindPopup(popup_c24ff70739c2de29e1927188d5282d1f)
+        ;
+
+        
+    
+    
+            var marker_f64f2fcbb6e71c58aa05626e019ce2ed = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_5eeeac8f95d3c03160f2a92ab73114e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20c29cb98f4e39bd2c70ddda976d3182 = $(`<div id="html_20c29cb98f4e39bd2c70ddda976d3182" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2024/10/31 20:17:00+00<br>     <b>Crime Type:</b> Aggravated Assault     </div>`)[0];
+                popup_5eeeac8f95d3c03160f2a92ab73114e9.setContent(html_20c29cb98f4e39bd2c70ddda976d3182);
+            
+        
+
+        marker_f64f2fcbb6e71c58aa05626e019ce2ed.bindPopup(popup_5eeeac8f95d3c03160f2a92ab73114e9)
+        ;
+
+        
+    
+    
+            var marker_0d9567c827cba18339c49432d0566219 = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_febb1a1ec6c6ebd903a51b1fe06bdbf1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8396c644cfb8a8682fdbe78d66917208 = $(`<div id="html_8396c644cfb8a8682fdbe78d66917208" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2024/04/18 19:28:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_febb1a1ec6c6ebd903a51b1fe06bdbf1.setContent(html_8396c644cfb8a8682fdbe78d66917208);
+            
+        
+
+        marker_0d9567c827cba18339c49432d0566219.bindPopup(popup_febb1a1ec6c6ebd903a51b1fe06bdbf1)
+        ;
+
+        
+    
+    
+            var marker_1b1e654024220de677939706b65cc23e = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_326ee20794fe163b02eac16054a0b502 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e6de1b6355a46f54a3eac3148de6235 = $(`<div id="html_6e6de1b6355a46f54a3eac3148de6235" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2024/12/24 19:29:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_326ee20794fe163b02eac16054a0b502.setContent(html_6e6de1b6355a46f54a3eac3148de6235);
+            
+        
+
+        marker_1b1e654024220de677939706b65cc23e.bindPopup(popup_326ee20794fe163b02eac16054a0b502)
+        ;
+
+        
+    
+    
+            var marker_71ac1af8429a357b4345ec7f60ce3e0b = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_9b1d5362efad213d7f5f0f360b6ed5b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af7842d9431c5a285445357c7fcf6c47 = $(`<div id="html_af7842d9431c5a285445357c7fcf6c47" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2025/01/10 17:15:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_9b1d5362efad213d7f5f0f360b6ed5b1.setContent(html_af7842d9431c5a285445357c7fcf6c47);
+            
+        
+
+        marker_71ac1af8429a357b4345ec7f60ce3e0b.bindPopup(popup_9b1d5362efad213d7f5f0f360b6ed5b1)
+        ;
+
+        
+    
+    
+            var marker_bdc85c8fdf9c4d004b19fd60834b697c = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_803f83f7bb6f75be286638d89c6a6741 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_edefa8bdfecee1a1c6a56dfb0b505824 = $(`<div id="html_edefa8bdfecee1a1c6a56dfb0b505824" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2025/03/31 21:48:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_803f83f7bb6f75be286638d89c6a6741.setContent(html_edefa8bdfecee1a1c6a56dfb0b505824);
+            
+        
+
+        marker_bdc85c8fdf9c4d004b19fd60834b697c.bindPopup(popup_803f83f7bb6f75be286638d89c6a6741)
+        ;
+
+        
+    
+    
+            var marker_bdd511c05136ff1e6020cddb1ad15b8b = L.marker(
+                [43.15801137026847, -77.60880775],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_ffb04dc7d73c5dbecc89a1705b3f11e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff9028d775050d3bc469a3f0a69a1ecc = $(`<div id="html_ff9028d775050d3bc469a3f0a69a1ecc" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 60 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2025/07/08 13:39:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_ffb04dc7d73c5dbecc89a1705b3f11e2.setContent(html_ff9028d775050d3bc469a3f0a69a1ecc);
+            
+        
+
+        marker_bdd511c05136ff1e6020cddb1ad15b8b.bindPopup(popup_ffb04dc7d73c5dbecc89a1705b3f11e2)
+        ;
+
+        
+    
+    
+            var marker_e80f0d5fde10fdd001a01f847c9c6c94 = L.marker(
+                [43.16501973703139, -77.58175866],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_b1e2b9447153edd80582c2795028310e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8254f9dc70e109e31b8dba785a344f60 = $(`<div id="html_8254f9dc70e109e31b8dba785a344f60" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 600 N GOODMAN ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2021/07/23 17:40:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_b1e2b9447153edd80582c2795028310e.setContent(html_8254f9dc70e109e31b8dba785a344f60);
+            
+        
+
+        marker_e80f0d5fde10fdd001a01f847c9c6c94.bindPopup(popup_b1e2b9447153edd80582c2795028310e)
+        ;
+
+        
+    
+    
+            var marker_c63a6ebad8629877200ad514d2de1593 = L.marker(
+                [43.167332469679565, -77.61644736],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_061504d321dce20df439275760a5206c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_118c4bc7296601fe70d10fbf8b9d2428 = $(`<div id="html_118c4bc7296601fe70d10fbf8b9d2428" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 600 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2021/04/02 13:10:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_061504d321dce20df439275760a5206c.setContent(html_118c4bc7296601fe70d10fbf8b9d2428);
+            
+        
+
+        marker_c63a6ebad8629877200ad514d2de1593.bindPopup(popup_061504d321dce20df439275760a5206c)
+        ;
+
+        
+    
+    
+            var marker_8d356c3cf1909f42539730cea7eb2f06 = L.marker(
+                [43.17593429349719, -77.63934354],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_bdd8c4a95522f6554dd5677edaaef4c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c762dc6097e2358dfa0b424a58eb9d85 = $(`<div id="html_c762dc6097e2358dfa0b424a58eb9d85" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 610 DEWEY AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2021/04/26 13:30:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_bdd8c4a95522f6554dd5677edaaef4c9.setContent(html_c762dc6097e2358dfa0b424a58eb9d85);
+            
+        
+
+        marker_8d356c3cf1909f42539730cea7eb2f06.bindPopup(popup_bdd8c4a95522f6554dd5677edaaef4c9)
+        ;
+
+        
+    
+    
+            var marker_5909147c34495fa8de98dac26bf493be = L.marker(
+                [43.15199895035437, -77.62904961],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_61097c26f78e11e4332acdbc118badbb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c73351d479ca22922f9448cf52861f94 = $(`<div id="html_c73351d479ca22922f9448cf52861f94" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 610 W MAIN ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2024/06/05 17:25:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_61097c26f78e11e4332acdbc118badbb.setContent(html_c73351d479ca22922f9448cf52861f94);
+            
+        
+
+        marker_5909147c34495fa8de98dac26bf493be.bindPopup(popup_61097c26f78e11e4332acdbc118badbb)
+        ;
+
+        
+    
+    
+            var marker_5742475c04fa3b450b34c7739ec2b759 = L.marker(
+                [43.15204636373429, -77.62949136],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_c1df25f9974906aa2e2b195171c615cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_22ef048c9e0856792c8827d45904bc8a = $(`<div id="html_22ef048c9e0856792c8827d45904bc8a" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 626 W MAIN ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2024/09/12 22:25:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_c1df25f9974906aa2e2b195171c615cb.setContent(html_22ef048c9e0856792c8827d45904bc8a);
+            
+        
+
+        marker_5742475c04fa3b450b34c7739ec2b759.bindPopup(popup_c1df25f9974906aa2e2b195171c615cb)
+        ;
+
+        
+    
+    
+            var marker_cb8b4c84ce4da8f9e73d8658c23280aa = L.marker(
+                [43.168316799279744, -77.61823872],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_950e130dc34747b4fc4f0949d3dedef9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84fe1807362ba89674988bb5b0798af4 = $(`<div id="html_84fe1807362ba89674988bb5b0798af4" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 691 ST PAUL ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2021/10/21 17:10:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_950e130dc34747b4fc4f0949d3dedef9.setContent(html_84fe1807362ba89674988bb5b0798af4);
+            
+        
+
+        marker_cb8b4c84ce4da8f9e73d8658c23280aa.bindPopup(popup_950e130dc34747b4fc4f0949d3dedef9)
+        ;
+
+        
+    
+    
+            var marker_17c191eae1ec26860747b0311514b86c = L.marker(
+                [43.17083999900525, -77.59779529],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_4ed77c934c3408e3dc62cbf86efaa8ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69f0d1571c8c5a1cf6fb35fc1508f6a6 = $(`<div id="html_69f0d1571c8c5a1cf6fb35fc1508f6a6" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 695 NORTH ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/08/25 05:58:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_4ed77c934c3408e3dc62cbf86efaa8ec.setContent(html_69f0d1571c8c5a1cf6fb35fc1508f6a6);
+            
+        
+
+        marker_17c191eae1ec26860747b0311514b86c.bindPopup(popup_4ed77c934c3408e3dc62cbf86efaa8ec)
+        ;
+
+        
+    
+    
+            var marker_786d6c7260facc11df34bc16b06b5f93 = L.marker(
+                [43.18993273716037, -77.61009478],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_66f3c5f338b42c66efe78ef9edb1f227 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f7b91009bf0ddbfcc022dd4cb69c629 = $(`<div id="html_8f7b91009bf0ddbfcc022dd4cb69c629" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 70 RESOLUTE CIR<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2022/12/24 02:49:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_66f3c5f338b42c66efe78ef9edb1f227.setContent(html_8f7b91009bf0ddbfcc022dd4cb69c629);
+            
+        
+
+        marker_786d6c7260facc11df34bc16b06b5f93.bindPopup(popup_66f3c5f338b42c66efe78ef9edb1f227)
+        ;
+
+        
+    
+    
+            var marker_3b20c2dc9958139beedbe7668466dd44 = L.marker(
+                [43.16089162473633, -77.64567474],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_ceb928c212f5e229278b18cfca3d34a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fdc1aad399fdbffb2ad4ef1db0776099 = $(`<div id="html_fdc1aad399fdbffb2ad4ef1db0776099" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 71 LISBON ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2024/09/22 03:45:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_ceb928c212f5e229278b18cfca3d34a7.setContent(html_fdc1aad399fdbffb2ad4ef1db0776099);
+            
+        
+
+        marker_3b20c2dc9958139beedbe7668466dd44.bindPopup(popup_ceb928c212f5e229278b18cfca3d34a7)
+        ;
+
+        
+    
+    
+            var marker_7572a41e3431e34c98b2fde5e05997c5 = L.marker(
+                [43.15845673399367, -77.60746601],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_bd7eb5b204608768f6ed520310a62eac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef56dd9e9c78012db72a5530b76bcb28 = $(`<div id="html_ef56dd9e9c78012db72a5530b76bcb28" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 71 N CLINTON AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2022/12/08 20:32:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_bd7eb5b204608768f6ed520310a62eac.setContent(html_ef56dd9e9c78012db72a5530b76bcb28);
+            
+        
+
+        marker_7572a41e3431e34c98b2fde5e05997c5.bindPopup(popup_bd7eb5b204608768f6ed520310a62eac)
+        ;
+
+        
+    
+    
+            var marker_27ed1d0909a4dfbc2964db0431ca545f = L.marker(
+                [43.15845673399367, -77.60746601],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_8fb18d86a5200b420e028fd7c1facf4e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e6c96e4d8d8497ae9dda8c08d5987324 = $(`<div id="html_e6c96e4d8d8497ae9dda8c08d5987324" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 71 N CLINTON AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/04/16 19:56:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_8fb18d86a5200b420e028fd7c1facf4e.setContent(html_e6c96e4d8d8497ae9dda8c08d5987324);
+            
+        
+
+        marker_27ed1d0909a4dfbc2964db0431ca545f.bindPopup(popup_8fb18d86a5200b420e028fd7c1facf4e)
+        ;
+
+        
+    
+    
+            var marker_463a1a666491104663d1f29c44cfd901 = L.marker(
+                [43.15845673399367, -77.60746601],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_43b2bda55890b22a7355dd3e4d173cc6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_096db7f19ea7fb79efc6b0022094f93e = $(`<div id="html_096db7f19ea7fb79efc6b0022094f93e" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 71 N CLINTON AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/04/20 18:24:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_43b2bda55890b22a7355dd3e4d173cc6.setContent(html_096db7f19ea7fb79efc6b0022094f93e);
+            
+        
+
+        marker_463a1a666491104663d1f29c44cfd901.bindPopup(popup_43b2bda55890b22a7355dd3e4d173cc6)
+        ;
+
+        
+    
+    
+            var marker_71c3d5f33dd83c60f23ec28e7ea9e9d6 = L.marker(
+                [43.15845673399367, -77.60746601],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_f97c71181ec5cb5725ac9690de0a5df7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7e34a6159a3d8bd02e710c339f57eb9 = $(`<div id="html_a7e34a6159a3d8bd02e710c339f57eb9" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 71 N CLINTON AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/01/21 19:30:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_f97c71181ec5cb5725ac9690de0a5df7.setContent(html_a7e34a6159a3d8bd02e710c339f57eb9);
+            
+        
+
+        marker_71c3d5f33dd83c60f23ec28e7ea9e9d6.bindPopup(popup_f97c71181ec5cb5725ac9690de0a5df7)
+        ;
+
+        
+    
+    
+            var marker_e95ba6550104e442c52b760571024e2d = L.marker(
+                [43.15845673399367, -77.60746601],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_b54e5e8eea41290f2c6ebe17b74efd94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b476b46183966256500c0587aaf700c = $(`<div id="html_1b476b46183966256500c0587aaf700c" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 71 N CLINTON AVE<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2021/04/29 14:20:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_b54e5e8eea41290f2c6ebe17b74efd94.setContent(html_1b476b46183966256500c0587aaf700c);
+            
+        
+
+        marker_e95ba6550104e442c52b760571024e2d.bindPopup(popup_b54e5e8eea41290f2c6ebe17b74efd94)
+        ;
+
+        
+    
+    
+            var marker_ec2f910bc66f3a1f6cd0f01a0e9a03ad = L.marker(
+                [43.15845673399367, -77.60746601],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_c8e6ea92004d6ec6943a35a47eddd27d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d56bb5709b82c35b4889cfa6c6819f36 = $(`<div id="html_d56bb5709b82c35b4889cfa6c6819f36" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 71 N CLINTON AVE<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2022/09/26 00:20:00+00<br>     <b>Crime Type:</b> Robbery     </div>`)[0];
+                popup_c8e6ea92004d6ec6943a35a47eddd27d.setContent(html_d56bb5709b82c35b4889cfa6c6819f36);
+            
+        
+
+        marker_ec2f910bc66f3a1f6cd0f01a0e9a03ad.bindPopup(popup_c8e6ea92004d6ec6943a35a47eddd27d)
+        ;
+
+        
+    
+    
+            var marker_7f37bb334612f9bcfbba9c3361647f0a = L.marker(
+                [43.15845673399367, -77.60746601],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_fdaa1b422c9cf9788532ecfc33e0a949 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a88a41eb014bf338b5158bc358f90e0b = $(`<div id="html_a88a41eb014bf338b5158bc358f90e0b" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 71 N CLINTON AVE<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2023/03/06 14:47:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_fdaa1b422c9cf9788532ecfc33e0a949.setContent(html_a88a41eb014bf338b5158bc358f90e0b);
+            
+        
+
+        marker_7f37bb334612f9bcfbba9c3361647f0a.bindPopup(popup_fdaa1b422c9cf9788532ecfc33e0a949)
+        ;
+
+        
+    
+    
+            var marker_3bc2d77f9ba9026547a485e061f42bc6 = L.marker(
+                [43.17256705809302, -77.57977125],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_ca2095b41e5cf0d653e39452d3c7fb6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_560be35a3fab49b9c91804f737581c3b = $(`<div id="html_560be35a3fab49b9c91804f737581c3b" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 72 FRANCES ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/01/05 21:04:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_ca2095b41e5cf0d653e39452d3c7fb6d.setContent(html_560be35a3fab49b9c91804f737581c3b);
+            
+        
+
+        marker_3bc2d77f9ba9026547a485e061f42bc6.bindPopup(popup_ca2095b41e5cf0d653e39452d3c7fb6d)
+        ;
+
+        
+    
+    
+            var marker_7966aae0c37cbd4fe04a2388000cb61c = L.marker(
+                [43.12826616302535, -77.62887683],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_5e7250694bbce60042a5b496ae4b8700 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4d0d1576f4d8e9664c6d8d6ba52bb8f = $(`<div id="html_a4d0d1576f4d8e9664c6d8d6ba52bb8f" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 755 LIBRARY ROAD<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2022/11/29 03:31:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_5e7250694bbce60042a5b496ae4b8700.setContent(html_a4d0d1576f4d8e9664c6d8d6ba52bb8f);
+            
+        
+
+        marker_7966aae0c37cbd4fe04a2388000cb61c.bindPopup(popup_5e7250694bbce60042a5b496ae4b8700)
+        ;
+
+        
+    
+    
+            var marker_676d2048e7602d9152e87609564a41c3 = L.marker(
+                [43.11671779978236, -77.63032297],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_094c4e2a0c6ef4c28c17a79cc2eae214 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_656cd84722ba1cd054ddeb9b7f5b948a = $(`<div id="html_656cd84722ba1cd054ddeb9b7f5b948a" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 755 UNIVERSITY PARK<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2024/06/10 01:25:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_094c4e2a0c6ef4c28c17a79cc2eae214.setContent(html_656cd84722ba1cd054ddeb9b7f5b948a);
+            
+        
+
+        marker_676d2048e7602d9152e87609564a41c3.bindPopup(popup_094c4e2a0c6ef4c28c17a79cc2eae214)
+        ;
+
+        
+    
+    
+            var marker_eb15128df9bb0dabf5c2395e7f89ea8e = L.marker(
+                [43.16602972548733, -77.62444778],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_9602e38a0626b7a4b9be7c5d049669df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d328b9b7393173609774791af73ee7b = $(`<div id="html_4d328b9b7393173609774791af73ee7b" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 77 LAKE AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2025/06/03 15:30:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_9602e38a0626b7a4b9be7c5d049669df.setContent(html_4d328b9b7393173609774791af73ee7b);
+            
+        
+
+        marker_eb15128df9bb0dabf5c2395e7f89ea8e.bindPopup(popup_9602e38a0626b7a4b9be7c5d049669df)
+        ;
+
+        
+    
+    
+            var marker_6b5529bd4d9350f728e2722a8177ab90 = L.marker(
+                [43.15593258886278, -77.60712931],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_a0aa7e4e31f2dd806de5fd74419f3c21 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6800b973414b103668a196557ef4bc35 = $(`<div id="html_6800b973414b103668a196557ef4bc35" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 792 STONE ROAD<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2024/08/10 00:36:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_a0aa7e4e31f2dd806de5fd74419f3c21.setContent(html_6800b973414b103668a196557ef4bc35);
+            
+        
+
+        marker_6b5529bd4d9350f728e2722a8177ab90.bindPopup(popup_a0aa7e4e31f2dd806de5fd74419f3c21)
+        ;
+
+        
+    
+    
+            var marker_29c0d042cee8daa1c13f0d1880630067 = L.marker(
+                [43.17280332956776, -77.59516138],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_5fa15b5e71a904c94bb067d1271b8902 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9dbe9b50bf6fca62d0685ec365187c84 = $(`<div id="html_9dbe9b50bf6fca62d0685ec365187c84" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 80 LINCOLN AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2024/11/08 01:48:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_5fa15b5e71a904c94bb067d1271b8902.setContent(html_9dbe9b50bf6fca62d0685ec365187c84);
+            
+        
+
+        marker_29c0d042cee8daa1c13f0d1880630067.bindPopup(popup_5fa15b5e71a904c94bb067d1271b8902)
+        ;
+
+        
+    
+    
+            var marker_200fae817e04ac0934ee94e1aee37e30 = L.marker(
+                [43.15837728818773, -77.60939681],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_49236bbb6c2e4eeec42ba45ea682934a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c5eddcea886b82eab41430eda23d382 = $(`<div id="html_9c5eddcea886b82eab41430eda23d382" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 80 ST PAUL ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2024/07/07 19:14:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_49236bbb6c2e4eeec42ba45ea682934a.setContent(html_9c5eddcea886b82eab41430eda23d382);
+            
+        
+
+        marker_200fae817e04ac0934ee94e1aee37e30.bindPopup(popup_49236bbb6c2e4eeec42ba45ea682934a)
+        ;
+
+        
+    
+    
+            var marker_06d93503eeeb273a92f766389419828f = L.marker(
+                [43.14278700870214, -77.58683074],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_fb671df2d7afafbfe364e7cd3f142e32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_faf039421655ddaca1c2cf827cf137be = $(`<div id="html_faf039421655ddaca1c2cf827cf137be" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 802 MONROE AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2021/09/15 22:45:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_fb671df2d7afafbfe364e7cd3f142e32.setContent(html_faf039421655ddaca1c2cf827cf137be);
+            
+        
+
+        marker_06d93503eeeb273a92f766389419828f.bindPopup(popup_fb671df2d7afafbfe364e7cd3f142e32)
+        ;
+
+        
+    
+    
+            var marker_9dac30766e473bb24f53b6ac0c5910dd = L.marker(
+                [43.16412138541461, -77.55834092],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_5c22fc4504ec0c2025ed89b69008d17e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eeb21120a668a340d3f2e2421a8251ce = $(`<div id="html_eeb21120a668a340d3f2e2421a8251ce" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 817 GRAND AVE<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/04/16 20:28:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_5c22fc4504ec0c2025ed89b69008d17e.setContent(html_eeb21120a668a340d3f2e2421a8251ce);
+            
+        
+
+        marker_9dac30766e473bb24f53b6ac0c5910dd.bindPopup(popup_5c22fc4504ec0c2025ed89b69008d17e)
+        ;
+
+        
+    
+    
+            var marker_52cbfbb3ba1f79afdb72c2417cf914a8 = L.marker(
+                [43.11610890418876, -77.61241564],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_3c6ee752cb9c13b121cf2f64a07e6896 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f91a0ef1549cb40ac932d4787a60bb38 = $(`<div id="html_f91a0ef1549cb40ac932d4787a60bb38" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 83 GREEN KNOLLS DR<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2022/12/30 23:47:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_3c6ee752cb9c13b121cf2f64a07e6896.setContent(html_f91a0ef1549cb40ac932d4787a60bb38);
+            
+        
+
+        marker_52cbfbb3ba1f79afdb72c2417cf914a8.bindPopup(popup_3c6ee752cb9c13b121cf2f64a07e6896)
+        ;
+
+        
+    
+    
+            var marker_640f74bdadbfcbac7c3b16d2d875c3e8 = L.marker(
+                [43.18028552331397, -77.60037853],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_4c8c7a1c45add4553e4886b9fb1467e8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0bfa7dd0703a60a6e8316fa4e4d3d5a = $(`<div id="html_b0bfa7dd0703a60a6e8316fa4e4d3d5a" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 835 HUDSON AVE<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2021/12/14 15:41:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_4c8c7a1c45add4553e4886b9fb1467e8.setContent(html_b0bfa7dd0703a60a6e8316fa4e4d3d5a);
+            
+        
+
+        marker_640f74bdadbfcbac7c3b16d2d875c3e8.bindPopup(popup_4c8c7a1c45add4553e4886b9fb1467e8)
+        ;
+
+        
+    
+    
+            var marker_9a993247dc513fede80ec5eb8ae4fd64 = L.marker(
+                [43.16923498148111, -77.57957667],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_083a6cf0b85302864992b3860be3b28c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bab1734b02777853c8d7275f421f6fab = $(`<div id="html_bab1734b02777853c8d7275f421f6fab" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 836 N GOODMAN ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2024/03/19 15:15:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_083a6cf0b85302864992b3860be3b28c.setContent(html_bab1734b02777853c8d7275f421f6fab);
+            
+        
+
+        marker_9a993247dc513fede80ec5eb8ae4fd64.bindPopup(popup_083a6cf0b85302864992b3860be3b28c)
+        ;
+
+        
+    
+    
+            var marker_580d79e53e5a652163220d3c42985017 = L.marker(
+                [43.14236607030364, -77.65676136],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_a801dffffc26c68afc54e08f68ea2266 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93359ea27f406ea6185369efdffa33fe = $(`<div id="html_93359ea27f406ea6185369efdffa33fe" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 846 ARNETT BLVD<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2022/10/14 12:45:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_a801dffffc26c68afc54e08f68ea2266.setContent(html_93359ea27f406ea6185369efdffa33fe);
+            
+        
+
+        marker_580d79e53e5a652163220d3c42985017.bindPopup(popup_a801dffffc26c68afc54e08f68ea2266)
+        ;
+
+        
+    
+    
+            var marker_1a9ed43667ce0929094b79bb8176e9c9 = L.marker(
+                [43.16569398621951, -77.56638287],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_06c21809408cfadf7e84cbdc4d052302 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1c34f9f3e00abf8c91004e31491e4b2 = $(`<div id="html_e1c34f9f3e00abf8c91004e31491e4b2" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 90 GREELEY ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2022/10/21 16:55:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_06c21809408cfadf7e84cbdc4d052302.setContent(html_e1c34f9f3e00abf8c91004e31491e4b2);
+            
+        
+
+        marker_1a9ed43667ce0929094b79bb8176e9c9.bindPopup(popup_06c21809408cfadf7e84cbdc4d052302)
+        ;
+
+        
+    
+    
+            var marker_b44c17a3c4e8d8549f365e786fa7f9f6 = L.marker(
+                [43.17259800655788, -77.58848827],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_e3531a194fc40e2fdb6cf70f7557e1be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf25a789de769b29b09dde31de75adf0 = $(`<div id="html_cf25a789de769b29b09dde31de75adf0" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 91 ROHR ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2023/11/28 17:20:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_e3531a194fc40e2fdb6cf70f7557e1be.setContent(html_cf25a789de769b29b09dde31de75adf0);
+            
+        
+
+        marker_b44c17a3c4e8d8549f365e786fa7f9f6.bindPopup(popup_e3531a194fc40e2fdb6cf70f7557e1be)
+        ;
+
+        
+    
+    
+            var marker_3c20e92893389eadb19ddc38f65b76af = L.marker(
+                [43.17416277165905, -77.65650528],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_bd8b8e0fc9e613c3a7627c67f3983c32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbc0dee149a6ea2424f2f3486251f50b = $(`<div id="html_bbc0dee149a6ea2424f2f3486251f50b" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 970 EMERSON ST<br>     <b>Location Type:</b> Transit Facility<br>     <b>Reported Timestamp:</b> 2021/09/13 22:34:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_bd8b8e0fc9e613c3a7627c67f3983c32.setContent(html_bbc0dee149a6ea2424f2f3486251f50b);
+            
+        
+
+        marker_3c20e92893389eadb19ddc38f65b76af.bindPopup(popup_bd8b8e0fc9e613c3a7627c67f3983c32)
+        ;
+
+        
+    
+    
+            var marker_761b2232864c95b15a9e9dbc810c1d7b = L.marker(
+                [43.15918917745398, -77.64771957],
+                {
+}
+            ).addTo(marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422);
+        
+    
+        var popup_2967faf8cbde983694eb1b729be2ea9c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63b4e7ee5bf5c3efa2ad5fc385cd4a10 = $(`<div id="html_63b4e7ee5bf5c3efa2ad5fc385cd4a10" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 995 JAY ST<br>     <b>Location Type:</b> Public Transit Vehicle<br>     <b>Reported Timestamp:</b> 2024/02/09 22:40:00+00<br>     <b>Crime Type:</b> Larceny     </div>`)[0];
+                popup_2967faf8cbde983694eb1b729be2ea9c.setContent(html_63b4e7ee5bf5c3efa2ad5fc385cd4a10);
+            
+        
+
+        marker_761b2232864c95b15a9e9dbc810c1d7b.bindPopup(popup_2967faf8cbde983694eb1b729be2ea9c)
+        ;
+
+        
+    
+    
+            marker_cluster_5290e29c5a32e0d9eb1e1226ca96c422.addTo(map_13bf075d9e6409e1c0aee25fa5e6cdec);
+        
+</script>
+</html>
